@@ -1,0 +1,95 @@
+\chapter{Apéndice}
+
+\section{Random Walk}
+
+Incluyendo incertidumbre a un modelo con expectativas racionales podemos obtener distintos resultados dependiendo del tipo de función de utilidad. En este caso veremos como un individuo neutro al riesgo sigue una trayectoria de consumo tipo \textit{random walk}.
+
+Primero resolvamos el problema con un consumo futuro incierto.
+\begin{align*}
+    \max _{c_t , c_{t+1}} \quad  u(c_t)+ \mathbb{E}_t \{u(c_{t+1})\} \\ 
+    s.a \quad y_t + \frac{y_{t+1}}{1+r} = c_t +\frac{c_{t+1}}{1+r}
+\end{align*}
+
+Planteamos el lagrangeano:
+\begin{equation*}
+    \mathcal{L}: u(c_t)+ \mathbb{E}_t \{ u(c_{t+1}) \} + \lambda \left(y_t + \frac{y_{t+1}}{1+r} - c_t - \frac{c_{t+1}}{1+r} \right)
+\end{equation*}
+
+Derivamos las condiciones de primer orden para encontrar la ecuación de Euler del consumo. 
+\begin{align}
+    \frac{\partial \mathcal{L}}{\partial c_t} =u'(c_t) -\lambda = 0    \notag \\   u'(c_t) = \lambda \\
+    \frac{\partial \mathcal{L} }{\partial c_{t+1}} = \frac{1}{1+\rho} \mathbb{E}_t \{ u'(c_{t+1})\} - \frac{\lambda }{1+r} = 0 \notag 
+ \\ \frac{1+r}{1+\rho } \mathbb{E}_t \{u'(c_{t+1})\} = \lambda \\
+ u'(c_t) = \frac{1+r}{1+\rho} \mathbb{E}_t\{u'(c_{t+1})\} \label{eq: Ecuación de euler random}
+\end{align}
+
+La expresión \ref{eq: Ecuación de euler random} es la ecuación de Euler.
+
+Para probar que un individuo neutral al riesgo sigue un \textit{random walk} en este caso podemos reemplazar la función de utilidad con una función cuadrática como en la expresión \ref{eq: ecuación cuadrática}. La utilidad marginal por tanto va a ser lineal lo cual describe un individuo neutro al riesgo.
+\begin{equation}
+    u(c_t) = bc_t - \frac{a}{2}c_t ^2 \label{eq: ecuación cuadrática}
+\end{equation}
+
+Remplazmaos las funciones de utilidad marginales en la ecuación de Euler del consumo y asumimos que $r=\rho = 0$:
+\begin{align*}
+    b-ac_t = \mathbb{E}_t\{b-ac_{t+1}\}
+\end{align*}
+
+Aplicamos propiedades de la esperanza y simplificamos los $b$ y $-a$:
+\begin{equation}
+    c_t = \mathbb{E}_t \{c_{t+1} \} \label{eq: random walk resultado}
+\end{equation}
+Según muestra la ecuación \ref{eq: random walk resultado} el consumo en $t$ va a ser igual a lo que se espera que sea el consumo en $t+1$. Por lo que la trayectoria de consumo se mantendrá igual hasta que llegue un shock que la desvíe.
+
+\section{Incertidumbre y ahorro por precaución}
+
+Bajo el mismo caso de incertidumbre, un individuo con aversión al riesgo tendrá un ahorro por precaución. Esto ya que no se cumple el caso de \ref{eq: random walk resultado} ya que tendremos utilidades marginales crecientes a tasas decrecientes. 
+
+Esto se traduce en que la esperanza de la utilidad es mayor a utilidad de la esperanza
+\begin{equation}
+    \mathbb{E}_t \{ u(c_t) \} < u(\mathbb{E}_t \{ c_t \})
+\end{equation}
+Podemos derivar la expresión. 
+\begin{equation}
+    \mathbb{E}_t \{ u'(c_t) \} > u'(\mathbb{E}_t \{ c_t \})
+\end{equation}
+Según \ref{eq: Ecuación de euler random} (con $\rho = r = 0$) podemos reemplazar.
+\begin{align}
+    u'(c_t) = u'(\mathbb{E}_t \{ c_{t+1} \}) < \mathbb{E}_t\{ u'(c_{t+1}) \} \notag \\
+    u'(c_t) < \mathbb{E}_t\{ u'(c_{t+1}) \} \label{eq: incertidumbre marginla averso}
+\end{align}
+De \ref{eq: incertidumbre marginla averso} podemos interpretar que debido al perfil del consumidor se consume menos por una necesidad de ahorro por precaución.
+
+\section{Modelo CAPM de consumo}
+Los retornos están sujetos a varianza. retornos puedes estar sujetos a varianza (incertidumbre). Para individuos con expectativas racionales que tienen la opción de consumir en el presente o de invertir para llevar dinero al futuro podremos llegar a la ecuación de euler del tipo \ref{eq: Ecuación de euler random}. Específicamente,
+\begin{equation}
+    u'(c_1) = \mathbb{E}_1  \left[  \frac{1+r^i}{1+\rho} u'(c_2)  \right] \label{eq: Ecuación de euler random 2}
+\end{equation}
+Donde $r^i$ es un activo con riesgo. Queremos buscar el diferencial entre la esperanza del activo riesgoso y el libre de riesgo. Utilizando las propiedades de la esperanza podemos desarrollar sacando el descuento intertemporal de la esperanza y multiplicando la esperanza de los retornos $1+r^i$ y $u'(c_2)$. Recordamos como desarrollar $\mathbb{E}(X\cdot Y)$ y aplicamos a \ref{eq: Ecuación de euler random 2}
+\begin{align}
+    \mathbb{E}(X\cdot Y) = \mathbb{E}(X) \cdot \mathbb{E}(Y) + \text{Cov}(XY) \\
+    u'(c_1) = \frac{1}{1+\rho} \left[ \mathbb{E}_1(1+r^i) \cdot \mathbb{E}_1 (u'(c^2)) + \text{Cov}(1 + r^i, u'(c_2)       \right] \\
+    \mathbb{E}_1 (1+r^i) = \frac {1}{\mathbb{E}_1 (u'(c_2))} \left[   (1+\rho)u'(c_1) - \text{Cov}(1+r^i, u'(c_2))     \right] \label{eq: Diferencial riesgoso}
+\end{align}
+
+Ahora tenemos la esperanza de los activos riesgosos, necesitamos encontrar el diferencial entre estos y los de libre riesgo. Sabemos que en caso de que $1+r$ sea libre de riesgo podremos sacar los retornos como constantes de  \ref{eq: Ecuación de euler random 2}. Llegamos a lo siguiente,
+\begin{equation}
+    1+r = \frac{1}{\mathbb{E}_1 (u'(c_2))} [(1+\rho)u'(c_1)] \label{eq: diferencial libre de riesgo}
+\end{equation}
+Por lo que ahora que tenemos las variables definidas podemos encontrar el diferencial restando \ref{eq: Diferencial riesgoso} con \ref{eq: diferencial libre de riesgo}. 
+\begin{equation*}
+    \mathbb{E}_1 (1+r^i) - (1+r) = \frac {(1+\rho)u'(c_1) - \text{Cov}(1+r^i, u'(c_2)) - (1+\rho)u'(c_1) }{\mathbb{E}_1 (u'(c_2))}  
+\end{equation*}
+Llegamos a que la diferencia entre los retornos riesgosos y los libres de riesgos debieran seguir esta igualdad.
+\begin{equation}
+    \mathbb{E}_1(r^i) - r = - \frac{\text{Cov}(1+r^i, u'(c_2))}{\mathbb{E}_1(u'(c_2))}
+\end{equation}
+Esta expresión es la que da sentido a los premios por riesgo de un activo con retornos inciertos. Aunque se parezca mucho al consumo intertemporal este modelo CAPM de consumo considera incertidumbre. Por lo que las personas no solo estarían decidiendo si invertir a futuro por precaución sino también por aumentar el consumo futuro bajo un riesgo. 
+
+En caso de que si $\text{Cov}(1+r^i,u'(c_2))<0$ habrá un premio de por riesgo. Recordando que $u'(c_2)<0$ podemos inferir que el retorno covaría positivamente con el consumo, por lo que en el futuro $t=2$ se necesitaría pagar un premio por riesgo. Esto ya que si un activo paga más cuando el consumo es alto no estaría proveyendo de un seguro contra las caídas del ingreso, la única razón de mantenerlo en el portafolio sería si provee un buen retorno. 
+
+En caso de que $\text{Cov}(1+r^i,u'(c_2))>0$, es decir el retorno es bajo cuando el consumo es alto el rendimiento será menor al libre de riesgo. Esto es porque además de servir como ahorro también juega una función de seguro contra los malos tiempos
+
+% desarrollar mejor, esto está en los ppt de macroeconomía I y falta mucho detalle...
+
+% Introducir de mejor manera el capm
