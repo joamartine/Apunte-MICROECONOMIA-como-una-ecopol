@@ -1,0 +1,39 @@
+\documentclass[12pt]{book}
+
+\usepackage[toc]{appendix} % para crear ambientes de apéndice
+\usepackage{amsmath,amssymb, amsthm} % Para mejorar ecuaciones
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel} % Español
+\usepackage[nice]{nicefrac}  % Para mejorar fracciones
+\usepackage{graphicx} % Para insertar graficos
+\usepackage{float} % Para manejar la ubicacion de graficos
+\usepackage[colorlinks=true, allcolors=black]{hyperref} % Para hipervincular las referencias dentro del texto
+\usepackage[Conny]{fncychap} % Capítulos
+
+\usepackage{marginnote}% Paquete para notas al márgen
+    \setlength{\marginparwidth}{4cm} % Ancho de la nota al margen
+    \setlength{\marginparsep}{0.5cm} % Distancia mínima entre la nota y el texto principal
+\usepackage{multirow,array}
+
+
+\begin{document}
+
+Apuntes del ramo de Economía Política con el profesor Landerretche. Podría contener errores y en caso de encontrarlos por favor notificarme al correo: joamartine@fen.uchile.cl
+
+Última actualización: Marzo 2024
+
+\newpage
+
+\setcounter{chapter}{2}
+
+\chapter{El Problema de lo Privado y lo Público}
+
+\input{Tex/EquilibrioGeneral.tex}
+
+\input{Tex/Externalidades.tex}
+
+\begin{appendices}
+    \input{Tex/Ap PrivadoPublico.tex}
+\end{appendices}
+
+\end{document}
