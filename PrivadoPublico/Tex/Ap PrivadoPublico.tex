@@ -21,7 +21,33 @@ Lo cual se debiera cumplir por la igualdad (\ref{eq: eq de mercado}).
 
 
 \section{Equilibrio General con Producción}
-Habrá una dotación de factores productivos $K,L$ en donde habrá un total de $\bar{K}$ y $\bar{L}$ para cada factor respectivamente. Asumiremos la función Cobb-Douglas para la función de utilidad y de producción.  
+
+Una extensión de lo visto en el modelo de equilibrio general con dos bienes y dos agentes sería considerar los factores productivos y funciones de producción con los que se crean los bienes. En este caso las dotaciones no van a ser de bienes sino de factores de producción capital y trabajo ($K,L$). Habrá un total de capital de $\bar{K}$ y un total de trabajo $\bar{L}$, con los que se producen los bienes $x,y$. 
+
+Análogo al consumo la condición de eficiencia para la producción sigue siendo la igualdad entre las tasas marginales, en este caso la \textbf{tasa marginal técnica} (TMT) de sustitución. Es decir, la producción de un bien que podemos intercambiar por la producción adicional de una unidad del otro,
+\begin{equation}
+    TMT = \frac{ \frac{\partial f(K,L)}{\partial K} }{\frac{\partial f(K,L)}{\partial L} } \label{eq: TMT dfn}
+\end{equation}
+Dado que se requieren capital y trabajo para los dos bienes estos se tendrán que repartir las dotaciones de manera eficiente, siguiendo \ref{eq: TMT = TMT}.
+\begin{equation}
+    TMT^x_{K,L} = TMT^y_{K,L} \label{eq: TMT = TMT}
+\end{equation}
+Podemos formar una caja de Edgeworth de producción como se puede ver en la figura \ref{fig:diapositiva4}.
+\begin{figure}[htbp]
+    \centering
+    \caption{Caja de Edgeworth en la producción}
+    \includegraphics[width=\textwidth]{Figuras/EG Curva de contrato con produccion.jpeg}
+    \label{fig:diapositiva4}
+\end{figure}
+Las curvas de contrato se relacionan con las fronteras de posibilidades. La \textbf{frontera de posibilidades}\marginnote{\textbf{Frontera de posibilidades:}} es una curva que describe todos los puntos en donde se ocupan eficientemente los factores productivos para producir dos bienes, es decir, son los puntos factibles donde no es posible aumentar la producción de un bien sin disminuir la producción del otro. En la figura \ref{fig:diapositiva5} se observan dos puntos, uno que está ubicado en la curva es eficiente y otro que no es eficiente puesto que se puede producir más de un bien sin disminuir la producción de otro. Como todos los puntos de la curva de contrato satisfacen la condición de eficiencia se puede decir que también pertenecen a la curva de contrato.
+\begin{figure}[htbp]
+    \centering
+    \caption{Frontera de posibilidades de producción}
+    \includegraphics[width=\textwidth]{Figuras/EQ Frontera de posibilidades de produccion.jpeg}
+    \label{fig:diapositiva5}
+\end{figure}
+
+Para resolver el modelo: Habrá una dotación de factores productivos $K,L$ en donde habrá un total de $\bar{K}$ y $\bar{L}$ para cada factor respectivamente. Asumiremos la función Cobb-Douglas para la función de utilidad y de producción.  
 \begin{align*}
     U_i (x_i,y_i) = x_i^\alpha y_i ^{1-\alpha},  \quad i = A,B \\
     x(K,L) = K_x^\beta L_x ^{1-\beta}, \quad y(K,L) = K_y^\beta L_y^{1-\beta}  
