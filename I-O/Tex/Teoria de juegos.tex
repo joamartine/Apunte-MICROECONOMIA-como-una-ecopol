@@ -155,18 +155,22 @@ Ambos corredores quieren hacer lo opuesto a lo que haga el otro, los equilibrios
 
 Los juegos secuenciales son una forma extendida de los juegos simultáneos. Bajo juegos simultáneos las estrategias eran acciones individuales; confesar, delatar, cooperar, tracionar, etcéra, bajo juegos secuenciales las estrategias son un grupo de acciones en determinado orden. 
 
-Lo ejemplos más usados son respecto al uso de bombas nucleares durante la guerra fría, también aprovechemos recordar como se planteaban estos juegos. Nuestro juego parte de una situación en que la Unión Soviética exige a las potencias
-occidentales que abandonen Berlín. En este punto, Estados Unidos tiene dos posibilidades:
-Aceptar y No aceptar.
+Los juegos secuenciales tienen un orden cronológico de la toma de decisiones y se juega por turnos. Para representar esto tendremos que usar ramas (figura \ref{Secuencia Soviética}), la decisión de un jugador abre las posibles decisiones del otro jugador que llevará a otra rama de decisiones con las que podrá responder el jugador inicial.
 
-\begin{center}
-    \includegraphics[scale=0.5]{Figuras/juegos secuencia.png}  
-\end{center}
-Las estrategias serán un plan de acción, en esta caso serían (Acepta, No Acepta y Guerra, No Acepta y Bloqueo).
+Un ejemplo que nos podrá servir sería el dominio de Berlin en la guerra fría. En un caso en donde la Unión Soviética (URSS) pide que las potencias occidentales abandonen Berlín, en cuyo caso Estados Unidos (EEUU) puede aceptar o no aceptar la orden. En caso de aceptar EEUU pierde -5 en pagos y la URSS gana 10. En caso de no aceptar el juego no termina ahí, se abre la posibilidad de que la URSS responda bélicamente o que simplemente los bloquee (figura \ref{Secuencia Soviética}). 
+\begin{figure}[htb]
+  \centering
+  \caption{Juego Secuencial del dominio sobre Berlín}
+  \includegraphics[width=10cm]{Figuras/juegos secuencia.png}
+  \label{Secuencia Soviética}
+\end{figure}
+% falta hacerla en el formato.
 
-Para resolver estos juegos uno tiene que seguir un método inductivo, resolver desde el futuro hacia el pasado. ¿Por qué resolver de adelante hacia atrás? Porque si resolvieramos como en juegos simultáneos no estaríamos contando si la amenaza (en este caso una respuesta bélica) es creíble. 
+Las estrategias serán más de una decisión, en esta caso serían (Acepta, No Acepta y Guerra, No Acepta y Bloqueo).
 
-Si plantearamos de manera simultánea encontramos dos EN, uno (el de Acepta y Guerra) en que \textbf{no es secuencialmente racional}, para que ese equilibrio sea posible Estados Unidos tiene que aceptar, sin embargo veremos a continuación por qué si Estados Unidos no acepta la Unión Soviética nunca responderá con una respuesta bélica.
+Para resolver estos juegos uno tiene que seguir un método inductivo, resolver desde el futuro hacia el pasado. De esta manera los jugadores pueden distinguir de las amenazas creíbles y no creíbles. Por ejemplo, la respuesta bélica de la URSS no es una amenza creíble puesto que esta queda mejor simplemente bloquando a EEUU. Por lo tanto EEUU sabe que la URSS responderá con bloqueo, entonces la estrategia de EEUU se reduce a no aceptar la orden puesto que obtendra un pago mayor ($0$) al caso en donde acepta abandonar Berlín ($-5$).
+
+En resumen los juegos secuenciales tienen que resolverse desde el futuro al pasado para distinguir amenazas creíbles. Plantear este juego como si fuera simultáneo nos llevaria a considerar un equilibrio de Nash que no es secuencialmente racional (cuadro \ref{simult Berlín}). Bajo esa matriz de pago el aceptar es un equilibrio de Nash, pero planteándolo secuencialmente podremos notar EEUU solo aceptará en caso de que la respuesta bélico de la URSS sea creíble (en este caso no lo es).
 
 \begin{table}[!htbp]
     \centering
@@ -177,19 +181,20 @@ Si plantearamos de manera simultánea encontramos dos EN, uno (el de Acepta y Gu
       \multicolumn{1}{c}{} &  & Guerra & Bloqueo \\\cline{2-4}
       \multirow{2}*{Estados Unidos}  & Acepta & $(\underbar{-5},\underbar{10})$ & $(-5,10)$ \\\cline{2-4}
       & No acepta & $(-10,-10)$ & $(\underbar{0},\underbar{0})$ \\\cline{2-4}
-    \end{tabular}
+    \end{tabular} \label{simult Berlín}
   \end{table}
 
-El juego tiene que ser \textbf{secuencialmente racional} por lo que resolvemos de adelante hacia atrás. El resultado será un equilibrio perfecto en subjuegos (EPS).
+Resolver un juego secuencial por el método inductivo nos llevará a encontrar un equilibrio perfecto en subjuegos. 
 
-Por lo tanto primero se resuelve la decisión de la Unión Soviética, la cual debiese decidir bloquear, y luego evaluar que decidirá Estados Unidos, la cual debiese no aceptar. 
+\begin{figure}[htb]
+  \centering
+  \caption{Solución del Juego Secuencial de Berlín}
+  \includegraphics[width=10cm]{Figuras/Inducción.png}
+  \label{Solución Soviética}
+\end{figure}
 
-\begin{center}
-    \includegraphics[scale = 0.50]{Figuras/Inducción.png}
-\end{center}
-
-\subsubsection*{Relación EN y EPS}
-
-En un juegos secuencial puedes obtener EN que no sean coherentes con las amenazas creíbles. Los EPS siempre son coherentes con la credibilidad de las amenazas. \textbf{Un EN no siempre es un EPS, pero un EPS siempre es un EN}. 
+¿Cuál es la relación entre Equilibrio de Nash (EN) y Equilibrio Cerfecto en Subjuegos (EPS)? En un juego secuencial puedes obtener EN que no sean coherentes con las amenazas creíbles. Los EPS siempre son coherentes con la credibilidad de las amenazas. En este sentido un EN no siempre es un EPS, pero un EPS siempre es un EN.
 
 \subsection{Estrategias Mixtas}
+
+Las estrategias mixtas consisten en asignar una probabilidad de tomas de decisiones. Bajo estrategias mixtas siempre podremos resolver los juegos que nos plantearemos en el apunte.\footnote{En este proceso simplemente le estamos dando una estructura clara a la maximización de pago de los individuos con tal de siempre obtener un resultado consistente.}
