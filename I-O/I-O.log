@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.15)  15 JUL 2024 16:37
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.15)  17 JUL 2024 09:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -414,95 +414,95 @@ LaTeX Info: Redefining \. on input line 4.
 LaTeX Info: Redefining \% on input line 4.
  [10]
 Package marginnote Info: Margin note 11.1 is on absolute page 11 on input line 5.
-Package marginnote Info: xpos seems to be 238.77692pt on input line 5.
+Package marginnote Info: xpos seems to be 173.846pt on input line 5.
 Package marginnote Info: Margin note 11.2 is on absolute page 11 on input line 9.
 Package marginnote Info: xpos seems to be 190.22627pt on input line 9.
 Package marginnote Info: Margin note 11.3 is on absolute page 12 on input line 17.
-Package marginnote Info: xpos seems to be 370.22859pt on input line 17.
+Package marginnote Info: xpos seems to be 186.24367pt on input line 17.
 LaTeX Info: Redefining \. on input line 18.
 LaTeX Info: Redefining \% on input line 18.
  [11]
-Package marginnote Info: Margin note 12.1 is on absolute page 12 on input line 24.
-Package marginnote Info: xpos seems to be 479.98763pt on input line 24.
-LaTeX Info: Redefining \. on input line 34.
-LaTeX Info: Redefining \% on input line 34.
+Package marginnote Info: Margin note 12.1 is on absolute page 12 on input line 23.
+Package marginnote Info: xpos seems to be 479.98763pt on input line 23.
+LaTeX Info: Redefining \. on input line 33.
+LaTeX Info: Redefining \% on input line 33.
  [12]
 File: Figuras/Función de reacción Bertrand.jpeg Graphic file (type bmp)
 <Figuras/Función de reacción Bertrand.jpeg>
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 44--46
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 43--45
  [][] 
  []
 
-Package marginnote Info: Margin note 13.1 is on absolute page 13 on input line 53.
-Package marginnote Info: xpos seems to be 406.43182pt on input line 53.
+Package marginnote Info: Margin note 13.1 is on absolute page 13 on input line 52.
+Package marginnote Info: xpos seems to be 406.43182pt on input line 52.
 File: Figuras/EN Bertrand con firmas simétricas.jpeg Graphic file (type bmp)
 <Figuras/EN Bertrand con firmas simétricas.jpeg>
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 58--60
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 57--59
  [][] 
  []
 
 File: Figuras/EN Bertrand firmas asimétricas.jpeg Graphic file (type bmp)
 <Figuras/EN Bertrand firmas asimétricas.jpeg>
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 68--70
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 67--69
  [][] 
  []
 
-Package marginnote Info: Margin note 13.2 is on absolute page 14 on input line 76.
-Package marginnote Info: xpos seems to be 493.06326pt on input line 76.
-LaTeX Info: Redefining \. on input line 77.
-LaTeX Info: Redefining \% on input line 77.
+Package marginnote Info: Margin note 13.2 is on absolute page 14 on input line 75.
+Package marginnote Info: xpos seems to be 493.06326pt on input line 75.
+LaTeX Info: Redefining \. on input line 76.
+LaTeX Info: Redefining \% on input line 76.
 [13]
-LaTeX Info: Redefining \. on input line 83.
-LaTeX Info: Redefining \% on input line 83.
+LaTeX Info: Redefining \. on input line 82.
+LaTeX Info: Redefining \% on input line 82.
  [14]
-LaTeX Info: Redefining \. on input line 89.
-LaTeX Info: Redefining \% on input line 89.
+LaTeX Info: Redefining \. on input line 88.
+LaTeX Info: Redefining \% on input line 88.
  [15]
-LaTeX Info: Redefining \. on input line 99.
-LaTeX Info: Redefining \% on input line 99.
+LaTeX Info: Redefining \. on input line 98.
+LaTeX Info: Redefining \% on input line 98.
  [16]
 File: Figuras/EN Cournot.jpeg Graphic file (type bmp)
 <Figuras/EN Cournot.jpeg>
-LaTeX Info: Redefining \. on input line 116.
-LaTeX Info: Redefining \% on input line 116.
+LaTeX Info: Redefining \. on input line 115.
+LaTeX Info: Redefining \% on input line 115.
  [17]
-LaTeX Info: Redefining \. on input line 141.
-LaTeX Info: Redefining \% on input line 141.
+LaTeX Info: Redefining \. on input line 140.
+LaTeX Info: Redefining \% on input line 140.
  [18]
-Package marginnote Info: Margin note 19.1 is on absolute page 19 on input line 146.
-Package marginnote Info: xpos seems to be 135.506pt on input line 146.
+Package marginnote Info: Margin note 19.1 is on absolute page 19 on input line 145.
+Package marginnote Info: xpos seems to be 135.506pt on input line 145.
 
-Overfull \hbox (0.272pt too wide) in paragraph at lines 146--147
+Overfull \hbox (0.272pt too wide) in paragraph at lines 145--146
 []\TU/lmr/m/n/12 Este modelo fue propuesto por el economista alemán \TU/lmr/bx/n/12 Heinrich von Stac-
  []
 
-LaTeX Info: Redefining \. on input line 160.
-LaTeX Info: Redefining \% on input line 160.
+LaTeX Info: Redefining \. on input line 159.
+LaTeX Info: Redefining \% on input line 159.
 [19]
-Package marginnote Info: Margin note 20.1 is on absolute page 20 on input line 172.
-Package marginnote Info: xpos seems to be 283.37216pt on input line 172.
-Package marginnote Info: Margin note 20.2 is on absolute page 20 on input line 172.
-Package marginnote Info: xpos seems to be 215.37895pt on input line 172.
-LaTeX Info: Redefining \. on input line 175.
-LaTeX Info: Redefining \% on input line 175.
+Package marginnote Info: Margin note 20.1 is on absolute page 20 on input line 171.
+Package marginnote Info: xpos seems to be 283.37216pt on input line 171.
+Package marginnote Info: Margin note 20.2 is on absolute page 20 on input line 171.
+Package marginnote Info: xpos seems to be 215.37895pt on input line 171.
+LaTeX Info: Redefining \. on input line 174.
+LaTeX Info: Redefining \% on input line 174.
  [20]
-LaTeX Info: Redefining \. on input line 191.
-LaTeX Info: Redefining \% on input line 191.
+LaTeX Info: Redefining \. on input line 190.
+LaTeX Info: Redefining \% on input line 190.
  [21]
-LaTeX Info: Redefining \. on input line 218.
-LaTeX Info: Redefining \% on input line 218.
+LaTeX Info: Redefining \. on input line 217.
+LaTeX Info: Redefining \% on input line 217.
  [22]
 
-LaTeX Warning: Reference `eq: Condición que tiene un nombre del que no me acuerdo ;(' on page 23 undefined on input line 233.
+LaTeX Warning: Reference `eq: Condición que tiene un nombre del que no me acuerdo ;(' on page 23 undefined on input line 232.
 
 
-LaTeX Warning: Reference `eq: Condición que tiene un nombre del que no me acuerdo ;(' on page 23 undefined on input line 243.
+LaTeX Warning: Reference `eq: Condición que tiene un nombre del que no me acuerdo ;(' on page 23 undefined on input line 242.
 
-LaTeX Info: Redefining \. on input line 244.
-LaTeX Info: Redefining \% on input line 244.
+LaTeX Info: Redefining \. on input line 243.
+LaTeX Info: Redefining \% on input line 243.
 [23])
 LaTeX Info: Redefining \. on input line 35.
 LaTeX Info: Redefining \% on input line 35.
@@ -519,15 +519,15 @@ LaTeX Info: Redefining \% on input line 22.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `I-O.out' has not changed.
-(rerunfilecheck)             Checksum: A199B6E95B1CFFF2ED97A2E83654EA3E;2938.
+(rerunfilecheck)             Checksum: 35CF1636D685F92AD97371E61BE8F490;2938.
  ) 
 Here is how much of TeX's memory you used:
- 11450 strings out of 476683
- 183991 string characters out of 5804047
+ 11451 strings out of 476683
+ 184027 string characters out of 5804047
  1858018 words of memory out of 5000000
- 31487 multiletter control sequences out of 15000+600000
+ 31488 multiletter control sequences out of 15000+600000
  519135 words of font info for 77 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 72i,16n,76p,1253b,432s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,16n,76p,1100b,432s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on I-O.xdv (25 pages, 381336 bytes).
+Output written on I-O.xdv (25 pages, 382256 bytes).
