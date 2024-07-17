@@ -20,9 +20,9 @@ Veremos un modelo de competencia monopolítica donde las firmas fijan precios y 
 
 \subsection{Competencia a la Bertrand}
 
-Este modelo fue planteado por el matemático \textbf{Joseph Bertrand}\marginnote{\textbf{Joseph Bertrand (1822-1900):} Matemático francés del siglo XIX. Proporcionó aportes a la economía como fue el modelo de Bertrand. Fue crítico del principio de maximización de utilidad.}[0cm] en 1883. Vamos a pensar en un duopolio de firmas $i\in 1,2$ que ofrecen un producto homogéneo compitiendo precios $p_i$. 
+Este modelo fue planteado por el matemático \textbf{Joseph Bertrand}\marginnote{\textbf{Joseph Bertrand (1822-1900):} Matemático francés del siglo XIX. Uno de sus más grandes aportes fue el modelo que lleva su nombre. Fue uno de los críticos del principio de maximización de utilidad.}[0cm] en 1883. Vamos a pensar en un duopolio de firmas $i\in 1,2$ que ofrecen un producto homogéneo compitiendo precios $p_i$. 
 
-Como los productos son sustitutos perfectos, la firma que ofrezca el menor precio se llevará toda la demanda $Q_i(p_i)$, en caso de ofrecer un mismo precio se reparten la demanda de manera equitativa. Por lo demás, las firmas tendrán un costo marginal $c_i$. 
+Como los productos son sustitutos perfectos, la firma que ofrezca el menor precio se llevará toda la demanda $Q_i(p_i)$, en caso de ofrecer un mismo precio se reparten la demanda de manera equitativa. Por último consideraremos que las firmas tendrán un costo marginal $c_i$ cada una. 
 
 Para entender como se llega al equilibrio en este mercado primero tenemos que identificar cuales son las mejores respuestas de una firma ante acciones de la otra, es decir la función de reacción óptima $a^*_i(a_{-i})$. Pensando desde el punto de vista de la firma $1$ podemos considerar 3 casos posibles y sus respectivas respuestas ante acciones de la firma $2$, buscamos definir la función de reacción $p^*_1(p_2)$.
 
@@ -44,12 +44,9 @@ El precio $p_1$ que fije la firma $1$ en función de $p_2$ seguirá la ecuación
     \label{fig:funciones de reacción Bertrand}
 \end{figure}
 
+\textsc{Equilibrio bajo competencia de precios}. Vamos considerar dos casos canónicos de este modelo de competencia por precios simple, uno donde las empresas son igual de eficientes y otro donde una es superior que otra en eficiencia.
 
-\subsubsection{Equilibrios de competencia a la Bertrand}
-
-Un caso útil para describir la dinámica se da cuando las empresas son simétricas, lo cual implica que tienen un mismo costo marginal $c$. La dinámica aquí es que la mejor respuesta ante cualquier precio $p_{-i}^M \geq p_i>c$ será fijar un precio menor, ante lo cual la competencia debería responder con un precio aun menor. De esta manera el precio bajará hasta el punto en que tanto $p_1$ como $p_2$ sean iguales a $c$. 
-
-Este caso es conocido como la \textbf{paradoja de Bertrand}.\marginnote{\textbf{Paradoja de Bertrand:} Durante la competencia de un duopolio con firmas simétricas el equilibrio de Nash se da donde el precio es igual al costo marginal. Es decir, se llega al resultado de competencia perfecta con sólo 2 firmas.}[-3.5cm] Se le da este nombre puesto que el resultado de esta competencia imperfecta con 2 firmas es el mismo que en competencia perfecta ($p=c$). Tal como se ve en la figura \ref{fig:EN Bertrand sim}. 
+Primero tomemos el caso en que las empresas son simétricas, lo cual implica que tienen un mismo costo marginal $c = c_1 = c_2$. La mejor respuesta ante cualquier precio $p_{-i}^M \geq p_i>c$ será fijar un precio menor, ante lo cual la competencia debería responder con un precio aun menor. De esta manera el precio bajará hasta el punto en que tanto $p_1$ como $p_2$ sean iguales a $c$. Este caso es conocido como la \textbf{paradoja de Bertrand}\marginnote{\textbf{Paradoja de Bertrand:} En competencia por precios a la Bertrand bajo ciertas condiciones se llega al mismo precio que en competencia perfecta bajo competencia imperfecta.}[-2cm] pues con apenas dos firmas llegamos a los mismos precios que en competencia perfecta ($p_i=c_i$). Véase la figura \ref{fig:EN Bertrand sim}. 
 
 \begin{figure}[htb]
     \centering
@@ -58,7 +55,7 @@ Este caso es conocido como la \textbf{paradoja de Bertrand}.\marginnote{\textbf{
     \label{fig:EN Bertrand sim}
 \end{figure}
 
-El resultado de una competencia en que una firma es más eficiente dista de lo anterior. Cuando una firma tiene un costo marginal menor a su rival podrá absorber toda la demanda fijando un precio ligeramente menor al costo marginal de su competencia. Más precisamente en el caso en que $c_1<c_2$ el equilibrio resulta en $p_1 = c_2 - \varepsilon$. Lo cuál llevaría a la firma menos eficiente a salir del mercado y la firma ganadora obtendría beneficios. Vease \ref{fig:EN Bertrand asim}. 
+Segundo, el caso en que una firma sea más eficiente que la otra, tome por ejemplo que la firma $1$ es más eficiente $c_1<c_2$. Cuando una firma tiene un costo marginal menor a su rival podrá absorber toda la demanda fijando un precio ligeramente menor al costo marginal de su competencia, en este caso sería $p_1 = c_2 - \varepsilon$. Lo cuál llevaría a la firma menos eficiente a salir del mercado y la firma ganadora obtendría beneficios. Véase la figura \ref{fig:EN Bertrand asim}. 
 
 \begin{figure}[htb]
     \centering
@@ -70,52 +67,39 @@ El resultado de una competencia en que una firma es más eficiente dista de lo a
 
 \subsection{Competencia a la Cournot}
 
-\subsubsection{Planteamiento}
-
-Otra manera de modelar la competencia entre firmas $i \in 1,2$ es mediante las cantidades de producción de cada una, lo cual se puede extrapolar a mercados con nula diferenciación de producto (Nuevamente nos referimos a productos homogéneos).\footnote{Por ejemplo, no importa la marca del cobre, no hay diferenciación de producto. El mayor predictor del precio asumiendo fija la demanda será la oferta.} El matemático francés \textbf{Antoine Cournot}\marginnote{\textbf{Antoine Cournot (1801-1877):} Filósofo y matemático frances que impulso la economía marginalista. Fue de los primeros quienes empezaron a usar funciones matemáticas para describir relaciones como la oferta y la demanda}[-4.5cm] planteó un modelo de mercado de un bien homogéneo donde la única variable estratégica que manejan las firmas es el nivel de producción.
+Otra manera de modelar la competencia entre firmas $i \in 1,2$ es considerando que las firmas no fijan el precio sino que este es producto de la cantidad que produzcan en total. En este modelo cada firma produce una cantidad para poder vender, a mayor cantidad produzcan venden más pero también presionan a la baja el precio. Que las firmas decidan la producción en vez del precio aplica bien en mercados con nula diferenciación de producto tales como los commodities.\footnote{Por ejemplo, no importa la marca del cobre, no hay diferenciación de producto. El mayor predictor del precio asumiendo fija la demanda será la oferta.} El matemático francés \textbf{Antoine Cournot}\marginnote{\textbf{Antoine Cournot (1801-1877):} Filósofo y matemático frances que impulso la economía marginalista. Fue de los primeros quienes empezaron a usar funciones matemáticas para describir relaciones como la oferta y la demanda}[-4.5cm] planteó un modelo de mercado de un bien homogéneo donde la única variable estratégica que manejan las firmas es el nivel de producción.
 
 Presentaremos el modelo dentro de un duopolio en donde cada firma produce una cantidad $q_i$, donde el total producido $Q$ es la suma de las producciones individuales.
 \begin{equation}
     Q = \sum_{i=1}^N q_i = q_1 + q_2 + \ldots +q_N
 \end{equation}
-Asumiremos que las firmas son simétricas (mismo costo marginal) y enfrentan una misma demanda inversa lineal $P(Q) = A - Q$. 
-
+Asumiremos que las firmas son simétricas (mismo costo marginal) y enfrentan una misma demanda inversa lineal.
+\begin{equation}
+    P(Q) = A - Q \label{eq: demanda inversa lineal}
+\end{equation}
 Para resolver el modelo debemos de plantear el problema que enfrenta cada firma. Esto es, maximizar beneficios considerando lo que pueden producir y vender $q_i$ y el beneficio marginal de cada producto $P-c$.
 \begin{equation}
-    \max_{q_i} \quad \Pi _i = (P-c)q_i \label{eq: maximización}
+    \max_{q_i} \quad \Pi _i = (P-c_i)q_i \label{eq: maximización}
 \end{equation}
 Como todas las producciones de distintas empresas están contenidas en \ref{eq: maximización} mediante el precio,\footnote{De la manera $P = A-\sum_{i = 1}^Nq_i$.} al optimizar obtendremos la cantidad que debiera producir la firma para maximizar sus beneficios en función de las decisiones de su competencia. Esto es, la estrategia óptima $q_i^*$ ante la estrategia del rival $q_j$. Resolvemos para la firma $1$.
 \begin{align*}
-\max_{q_1} \quad \Pi_1 &= (P-c)q_1 = (A-q_1-q_2)q_1 - cq_1 \\
-\text{CPO:} \quad \frac{\partial \Pi_1}{\partial q_1} &= A-2q_1 - q_2 -c =0
+\max_{q_1} \quad \Pi_1 &= (P-c_1)q_1 = (A-q_1-q_2)q_1 - c_1q_1 \\
+ \text{CPO:} \quad \dv{\Pi_1}{q_1} &= A-2q_1 - q_2 -c_1 =0
 \end{align*}
 Teniendo las condiciones de primer orden solo queda despejar para obtener la función de reacción de la firma $1$ ante la estrategia de la firma $2$.
 \begin{equation}
-    q^*_1(q_2) = \frac{A-q_2-c}{2} \label{eq: Función de reacción 1}
+    q^*_1(q_2) = \frac{A-q_2-c_1}{2} \label{eq: Función de reacción 1}
 \end{equation}
+La mejor estrategia para $1$ dependerá de la producción de $2$. La producción óptima $q^*_1$ bajará en caso de que el rival produzca más $\Delta^+ q_2$, esto ya que aumentar la producción causaría que el precio caiga más de lo ideal por el exceso de oferta. Es por esto que en competencias a la Cournot la pendiente de la función de reacción será negativa.\footnote{En Bertrand hay pendiente positiva en ciertas partes de la función, la intuición es que si el rival pone un precio mayor entonces la firma puedo subir los precios hasta cierto punto y aún así absorber la demanda.}
 
-La mejor estrategia para $1$ dependerá de la producción de $2$. La producción óptima $q^*_1$ bajará en caso de que el rival produzca más $\Delta^+ q_2$, esto ya que aumentar la producción causaría que el precio caiga más de lo ideal por el exceso de oferta. Es por esto que en competencias a la Cournot la pendiente de la función de reacción será negativa.\footnote{En Bertrand hay pendiente positiva en ciertas partes de la función puesto que un aumento de precio de una firma no llevaba a una reducción del precio de la otra.}
+\textsc{Equilibrio de competencia a la Cournot}. Para llegar a un equilibrio de Nash a la Cournot cada firma internaliza la función de reacción de la otra para llegar a la cantidad estratégicamente óptima para producir. Esto es, reemplazar la función de respuesta $q^*_2(q_1)$ en $q^*_1(q_2)$ o viceversa. 
 
-\subsubsection{Equilibrio de competencia a la Cournot} 
-
-Recordemos que las firmas llegarán a un equilibrio de Nash cuando estas respondan su estrategia óptima ante la estrategia óptima de sus competidoras. Dadas las funciones de reacción es trivial encontrar el equilibrio, directamente se reemplaza la función de respuesta $q^*_2(q_1)$ en $q^*_1(q_2)$ o viceversa.
-
-\begin{figure}[htb]
-    \centering
-    \caption{Equilibrio de Nash en Cournot}
-    \centering
-    \includegraphics[width=12cm]{Figuras/EN Cournot.jpeg}
-    \label{fig:EN Cournot}
-\end{figure}
-
-Como en este caso las firmas son simétricas podemos decir que $q_1 = q_2 = q$ y resolver directamente. 
+Tomemos para hacerlo más fácil dos firmas iguales, por lo que $c_1 = c_2 = c$, incluso sabiendo que van a producir lo mismo podemos simplicar $q_1 = q_2 = q$. Dado que para encontrar equilibrios de Nash bajo cournot reemplazabamos la función de reacción de una firma en la otra ahora nos basta con cambiar $q_i = q$. 
 \begin{align}
     q &= \frac{A-q-c}{2} \notag \\
     q &= \frac{A-c}{3} \label{eq: producción individual}
 \end{align}
-Según \ref{eq: producción individual} tendremos la producción individual de las dos firmas.
-
-El precio se determinará por el total de oferta en el mercado, es decir, la producción de cada una de las firmas $Q = 2q$. 
+Obtenemos la ecuación \ref{eq: producción individual} la cual representa la producción individual de las dos firmas. El precio se determinará por el total de oferta en el mercado, es decir, la producción de cada una de las firmas $Q = 2q$. 
 \begin{align}
     P &= A-2 \cdot \left( \frac{A-c}{3} \right) \notag \\
     P &= \frac{A-2c}{3}
@@ -126,41 +110,52 @@ Por último podemos determinar los beneficios de cada firma reemplazando los val
 \Pi_i &= \frac{(A-c)^2}{9}
 \end{align}
 
+\begin{figure}[htb]
+    \centering
+    \caption{Equilibrio de Nash en Cournot}
+    \centering
+    \includegraphics[width=12cm]{Figuras/EN Cournot.jpeg}
+    \label{fig:EN Cournot}
+\end{figure}
+
 Este ejemplo de equilibrio es con firmas simétricas, en caso de haber una firma más eficiente a esta le convendría producir más. Graficamente la empresa más eficiente debiera tener una función de reacción más desplazada hacia la derecha. 
 
-\subsubsection*{Caso para $n$ firmas}
-Como ejercicio se recomienda hacer este mismo procedimiento para $n$ firmas en el mercado. Una vez hecho se recomienda analizar los efectos marginales de aumentos o reducciones en $n$ y el caso en que $n$ tiende a infinito.
+\textsc{Caso para $n$ firmas}.
+Como ejercicio se recomienda hacer este mismo procedimiento para $n$ firmas en el mercado. ¿Qué ocurre cuando $n$ tiende a infinito?
 
+\subsection*{Recapitulación competencia a la Bertrand y Cournot}
 
-\section*{Recapitulación y observaciones}
+Como es un juego estratégico entre firmas, todas mirarán hacia el futuro para formar creencias de lo que hará la otra con tal de responder de la mejor manera. El modelo Bertrand que hemos visto en este caso tiene una solución directa ya sean firmas simétricas o asimétricas. En Cournot es necesario plantear y resolver el problema de maximización de beneficios para poder llegar al equilibrio de Nash. 
 
-En los dos tipos de competencia las firmas forman creencias de lo que hará la competencia para poder maximizar beneficios. En el caso de Bertrand presentado la solución es directa y no se requiere de plantear el problema de maximización de beneficios. 
+Es importante notar que competir por precios es bastante más fuerte que competir por cantidades. De hecho, dos firmas simétricas bajo competencia de precios no tienen beneficio alguno mientras que en cantidades si los tendrán.
 
-Se puede notar mirando los beneficios en cada caso, que competir a la Bertrand es mucho más competitivo que a la Cournot. Una empresa más eficiente que su competencia en Cournot podrá vender más, en Bertrand se quedará con todo el mercado. 
-
-En los casos presentados se supone implícitamente que las empresas tienen capacidad de servir a todo el mercado que quieran. Este supuesto no es realista y se puede levantar dando pasos a otras conclusiones pero que no se desvían mucho de lo ya visto. Se puede encontrar más detalle en el anexo. 
+Hemos supuesto implícitamente que las empresas tienen capacidad de servir a todo el mercado que quieran. Este supuesto muchas veces no se ajusta a la realidad y se puede levantar dando pasos a otras conclusiones pero que no se desvían mucho de lo ya visto. En el anexo puede encontrar información de restricciones de capacidad en competencia oligopólica. 
 
 \subsection{Competencia a la Stackelberg}
 
-Este modelo fue propuesto por el economista alemán \textbf{Heinrich von Stackelberg}.\marginnote{\textbf{Heinrich von Stackelberg (1905-1946)}: Economista alemán de ascendencia argentina nacido en Rusia, arrepentido miembro del Partido Nazi y sargento de la SS, falleció en España. Aportó a la teoría de juegos.}[0cm] Ya habiendo comprendido el modelo Cournot no es complejo entender el modelo Stackelberg.\footnote{Competencia a la Stackelberg es una tipo de competencia a la Cournot.} El \textit{twist} con respecto al modelo anterior se encuentra en que las firmas jugarán por turnos, inevitablemente la primera a jugar tiene la ventaja. 
+Este modelo fue primero presentado por el economista alemán \textbf{Heinrich von Stackelberg}.\marginnote{\textbf{Heinrich von Stackelberg (1905-1946)}: Economista alemán de ascendencia argentina nacido en Rusia, aportó enormemente a la teoría de juegos. Fue un arrepentido miembro del Partido Nazi y sargento de la SS.}[-1cm] Ya habiendo comprendido el modelo Cournot no es complejo entender el modelo Stackelberg,\footnote{Competencia a la Stackelberg se presenta casi siempre como una competencia fijando cantidades. Sin embargo hay extensiones del modelo a precios, los cuales pueden distar bastante de como se estudia este modelo en este apunte, pero siguen conteniendo la sustancia del modelo que es un juego a turnos. Véase, Stan van Hoesel,
+An overview of Stackelberg pricing in networks,
+European Journal of Operational Research ó Meng, FL., Zeng, XJ. A Stackelberg game-theoretic approach to optimal real-time pricing for the smart grid. Soft Comput 17, 2365–2380 (2013).} el \textit{twist} con respecto al modelo anterior es que las firmas jugarán por turnos, inevitablemente la primera a jugar tiene la ventaja. 
 
 Supongamos que la firma $1$ es la líder pues juega primero, mientras que la firma $2$ es la seguidora. La firma líder decidirá en el $t = 1$ la cantidad $q_1$ que producirá y en $t=2$ la firma seguidora decidirá su producción $q_2$ en función de $q_1$.
 
-Este tipo de juegos se tienen que resolver por inducción. Si miramos el problema desde el final hasta el inicio primero se maximizan los beneficios de la firma $2$, la cual en $t = 2$ ya sabrá qué produjo la firma $1$, de lo cual obtendremos $q_2^*(q_1)$. La firma líder tendrá que maximizar en $t=1$ sujeto a lo que hará la seguidora en $t=2$. El problema de la firma $1$ se plantea de la siguiente manera,
+Este es un juego secuencial que se resuelve por inducción. Si miramos el problema desde el final hasta el inicio primero se maximizan los beneficios de la firma $2$, la cual en $t = 2$ ya sabrá qué produjo la firma $1$, de lo cual obtendremos $q_2^*(q_1)$. La firma líder tendrá que maximizar en $t=1$ sujeto a lo que hará la seguidora en $t=2$. Asumamos que ambas firmas tienen iguales costos marginales para simplificar el problema y que compiten por una demanda lineal tal como en la ecuación \ref{eq: demanda inversa lineal}. El problema de la firma $1$ se plantea de la siguiente manera,
 \begin{align*}
     \max_{q_1} \quad &\Pi_1 = (P(Q)-c)q_1 \\
-    \text{s.a}\quad &q_2=q_2^*(q_1)
+    \text{s.a.}\quad &q_2=q_2^*(q_1)
 \end{align*}
-Suponiendo una demanda lineal y que las firmas son simétricas podemos considerar (\ref{eq: Función de reacción 1}) como la función de reacción para la firma seguidora. Reemplazamos la restricción en la expresión a maximizar y reescribimos el problema como,
+Dadas las simplificaciones que hicimos podemos considerar la ecuación \ref{eq: Función de reacción 1} como la función de reacción para la firma seguidora. Reemplazamos la restricción en la expresión a maximizar y reescribimos el problema como,
 \begin{align*}
     \max_{q_1} \quad &\Pi_1 = \left(A-q_1-c- \left(\frac{A-q_1-c}{2} \right) \right)q_1 \\ & \Pi_1 = \left( \frac{A-q_1-c}{2}   \right)q_1 \\
-    \text{CPO:} \quad & \frac{\partial \Pi_1}{\partial q_1} =   \frac{A-c}{2} -q_1 = 0 \\
+    \text{CPO:} \quad & \dv{\Pi_1}{q_1} =   \frac{A-c}{2} -q_1 = 0 \\
     & q_1 = \frac{A-c}{2}
 \end{align*}
 Reemplazando $q_1$ en $q_2^*(q_1)$ obtendremos la producción de la firma seguidora. 
-
-La producción de la firma líder aumenta por sobre el caso de Cournot con turnos simultáneos. La firma líder tiene más espacio para aumentar la producción para aumentar ventas, mientras que la seguidora tendrá que adaptarse produciendo menos para que el precio no baje demasiado.
-
+\begin{align*}
+    q_2^*(q_1) = \frac{A-(\frac{A-c}{2})-c}{2} \\
+    q_2^*(q_1) = \frac{A-c}{4}
+\end{align*}
+En comparación a Cournot simple, tenemos que la firma líder (seguidora) producirá más (menos) y por tanto conseguir mayores (menores) beneficios. La firma líder tiene más espacio para producir más sin desplomar el precio, en el segundo turno la firma seguidora tendrá que acotar su producción con tal de no bajar más el precio.
 
 \section{Acuerdos colusivos}
 

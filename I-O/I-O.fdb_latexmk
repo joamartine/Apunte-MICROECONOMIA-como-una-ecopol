@@ -1,11 +1,11 @@
 # Fdb version 4
-["xdvipdfmx"] 1721224193 "I-O.xdv" "I-O.pdf" "I-O" 1721224193 0
-  "I-O.xdv" 1721224193 382256 2f2a4c2b305f92bb09d24d475d535633 "xelatex"
+["xdvipdfmx"] 1721249588 "I-O.xdv" "I-O.pdf" "I-O" 1721249588 0
+  "I-O.xdv" 1721249588 395224 dbff58d0a86afe32e4759c50d006a7eb "xelatex"
   (generated)
   "I-O.pdf"
   (rewritten before read)
-["xelatex"] 1721224192 "/Users/joaquin/Documents/GitHub/Apunte-MICROECONOMIA-como-una-ecopol/I-O/I-O.tex" "I-O.xdv" "I-O" 1721224193 0
-  "/Users/joaquin/Documents/GitHub/Apunte-MICROECONOMIA-como-una-ecopol/I-O/I-O.tex" 1721065541 1235 8ff77e40d4bef69dedac2898fad50606 ""
+["xelatex"] 1721249587 "/Users/joaquin/Documents/GitHub/Apunte-MICROECONOMIA-como-una-ecopol/I-O/I-O.tex" "I-O.xdv" "I-O" 1721249588 0
+  "/Users/joaquin/Documents/GitHub/Apunte-MICROECONOMIA-como-una-ecopol/I-O/I-O.tex" 1721247389 1268 eb569ac95416bea33f7528d114651aff ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -85,9 +85,12 @@
   "/usr/local/texlive/2023/texmf-dist/tex/latex/kvoptions/kvoptions.sty" 1655478651 22555 6d8e155cfef6d82c3d5c742fea7c992e ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty" 1665067230 13815 760b0c02f691ea230f5359c4e1de23a7 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-xetex.def" 1673989714 32346 879686206fa618f4f5073ad4bd48feda ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty" 1677186603 6107 5cfea8a675c58918b8c04be10261e48c ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/l3packages/xparse/xparse.sty" 1675461949 6812 3c152a1c8d562d7b7291c4839b61a5c3 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty" 1575499565 5766 13a9e8766c47f30327caf893ece86ac8 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/marginnote/marginnote.sty" 1533848275 14009 35dd526d8247b2f4ee465b7aa25e2d16 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/multirow/multirow.sty" 1615845910 6149 2398eec4faa1ee24ff761581e580ecf1 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/physics/physics.sty" 1356048875 29610 a9597219b282d9c78b02393dcd7d4322 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/refcount/refcount.sty" 1576624809 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657483315 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty" 1667332637 12691 5b542990fe866f3d772f71346cf85b95 ""
@@ -102,11 +105,11 @@
   "Figuras/Función de reacción Bertrand.jpeg" 1719755952 19530 477225d705328050668a467db0148b3e ""
   "Figuras/Inducción.png" 1719755952 51401 5826ac95923fd98516fdef67fc20f013 ""
   "Figuras/juegos secuencia.png" 1719755952 50409 fd2079fb702e06bd24e814fd9cd7d4e0 ""
-  "I-O.aux" 1721224193 7949 d0d06a9ea1368d96265cc1f51c8957ae "xelatex"
-  "I-O.out" 1721224193 2938 35cf1636d685f92ad97371e61be8f490 "xelatex"
-  "I-O.tex" 1721065541 1235 8ff77e40d4bef69dedac2898fad50606 ""
+  "I-O.aux" 1721249588 7691 0af6f7d327936a7ec00bff79c92362e2 "xelatex"
+  "I-O.out" 1721249588 2937 13f558de3dc1405deb75ce1ae8d02514 "xelatex"
+  "I-O.tex" 1721247389 1268 eb569ac95416bea33f7528d114651aff ""
   "Tex/AP I-O.tex" 1719755952 888 365158ffbafb324f7ee5a8aed2df6445 ""
-  "Tex/Competencia imperfecta.tex" 1721224192 26280 aeb88142217002be245de2ca9ae5b4e5 ""
+  "Tex/Competencia imperfecta.tex" 1721249587 27749 a40faa0bd129d4ae5dc619130f755dd0 ""
   "Tex/Teoria de juegos.tex" 1721075269 17116 cb1349524f9fdb1c85838f7d55cfefea ""
   (generated)
   "I-O.aux"
