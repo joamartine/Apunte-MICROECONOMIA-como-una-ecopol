@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1721249588 "I-O.xdv" "I-O.pdf" "I-O" 1721249588 0
-  "I-O.xdv" 1721249588 395224 dbff58d0a86afe32e4759c50d006a7eb "xelatex"
+["xdvipdfmx"] 1721255232 "I-O.xdv" "I-O.pdf" "I-O" 1721255232 0
+  "I-O.xdv" 1721255232 406376 9f28f8961e35b37ed4e8717d718fbe00 "xelatex"
   (generated)
   "I-O.pdf"
   (rewritten before read)
-["xelatex"] 1721249587 "/Users/joaquin/Documents/GitHub/Apunte-MICROECONOMIA-como-una-ecopol/I-O/I-O.tex" "I-O.xdv" "I-O" 1721249588 0
+["xelatex"] 1721255231 "/Users/joaquin/Documents/GitHub/Apunte-MICROECONOMIA-como-una-ecopol/I-O/I-O.tex" "I-O.xdv" "I-O" 1721255232 0
   "/Users/joaquin/Documents/GitHub/Apunte-MICROECONOMIA-como-una-ecopol/I-O/I-O.tex" 1721247389 1268 eb569ac95416bea33f7528d114651aff ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -105,11 +105,11 @@
   "Figuras/Función de reacción Bertrand.jpeg" 1719755952 19530 477225d705328050668a467db0148b3e ""
   "Figuras/Inducción.png" 1719755952 51401 5826ac95923fd98516fdef67fc20f013 ""
   "Figuras/juegos secuencia.png" 1719755952 50409 fd2079fb702e06bd24e814fd9cd7d4e0 ""
-  "I-O.aux" 1721249588 7691 0af6f7d327936a7ec00bff79c92362e2 "xelatex"
-  "I-O.out" 1721249588 2937 13f558de3dc1405deb75ce1ae8d02514 "xelatex"
+  "I-O.aux" 1721255232 7892 f277262b010d4fe2c8a337189b0599bc "xelatex"
+  "I-O.out" 1721255232 3192 b408c6059da3b93a21b5dbde63801273 "xelatex"
   "I-O.tex" 1721247389 1268 eb569ac95416bea33f7528d114651aff ""
   "Tex/AP I-O.tex" 1719755952 888 365158ffbafb324f7ee5a8aed2df6445 ""
-  "Tex/Competencia imperfecta.tex" 1721249587 27749 a40faa0bd129d4ae5dc619130f755dd0 ""
+  "Tex/Competencia imperfecta.tex" 1721255231 28563 22e177b32b891e7d784f979a84e6a408 ""
   "Tex/Teoria de juegos.tex" 1721075269 17116 cb1349524f9fdb1c85838f7d55cfefea ""
   (generated)
   "I-O.aux"

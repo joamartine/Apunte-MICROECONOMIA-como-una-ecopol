@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.15)  17 JUL 2024 16:53
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.15)  17 JUL 2024 18:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -490,26 +490,19 @@ LaTeX Info: Redefining \% on input line 142.
 LaTeX Info: Redefining \. on input line 163.
 LaTeX Info: Redefining \% on input line 163.
  [20]
-Package marginnote Info: Margin note 21.1 is on absolute page 21 on input line 166.
-Package marginnote Info: xpos seems to be 238.37216pt on input line 166.
-Package marginnote Info: Margin note 21.2 is on absolute page 21 on input line 166.
-Package marginnote Info: xpos seems to be 170.37895pt on input line 166.
-LaTeX Info: Redefining \. on input line 175.
-LaTeX Info: Redefining \% on input line 175.
+Package marginnote Info: Margin note 21.1 is on absolute page 21 on input line 168.
+Package marginnote Info: xpos seems to be 236.484pt on input line 168.
+LaTeX Info: Redefining \. on input line 171.
+LaTeX Info: Redefining \% on input line 171.
  [21]
-LaTeX Info: Redefining \. on input line 199.
-LaTeX Info: Redefining \% on input line 199.
+Package marginnote Info: Margin note 22.1 is on absolute page 22 on input line 172.
+Package marginnote Info: xpos seems to be 325.22775pt on input line 172.
+LaTeX Info: Redefining \. on input line 185.
+LaTeX Info: Redefining \% on input line 185.
  [22]
-LaTeX Info: Redefining \. on input line 226.
-LaTeX Info: Redefining \% on input line 226.
- [23]
-
-LaTeX Warning: Reference `eq: Condición que tiene un nombre del que no me acuerdo ;(' on page 24 undefined on input line 227.
-
-
-LaTeX Warning: Reference `eq: Condición que tiene un nombre del que no me acuerdo ;(' on page 24 undefined on input line 237.
-
-)
+LaTeX Info: Redefining \. on input line 215.
+LaTeX Info: Redefining \% on input line 215.
+ [23])
 LaTeX Info: Redefining \. on input line 36.
 LaTeX Info: Redefining \% on input line 36.
  [24] (./Tex/AP I-O.tex
@@ -521,19 +514,16 @@ Apéndice A.
 LaTeX Info: Redefining \. on input line 22.
 LaTeX Info: Redefining \% on input line 22.
 )
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `I-O.out' has not changed.
-(rerunfilecheck)             Checksum: 13F558DE3DC1405DEB75CE1AE8D02514;2937.
+(rerunfilecheck)             Checksum: B408C6059DA3B93A21B5DBDE63801273;3192.
  ) 
 Here is how much of TeX's memory you used:
- 12111 strings out of 476683
- 191848 string characters out of 5804047
+ 12109 strings out of 476683
+ 191773 string characters out of 5804047
  1858018 words of memory out of 5000000
- 32138 multiletter control sequences out of 15000+600000
+ 32136 multiletter control sequences out of 15000+600000
  519135 words of font info for 77 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  72i,16n,77p,1209b,432s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on I-O.xdv (25 pages, 395224 bytes).
+Output written on I-O.xdv (25 pages, 406376 bytes).

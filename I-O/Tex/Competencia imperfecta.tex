@@ -159,29 +159,27 @@ En comparación a Cournot simple, tenemos que la firma líder (seguidora) produc
 
 \section{Acuerdos colusivos}
 
-Como se puede notar en el problema de la firma, cada empresa maximiza los beneficios propios y no los conjuntos, lo cual es un factor en el nivel competitivo de las firmas y el poder de mercado que ostenten. Sin embargo, la competencia no es buena para las firmas, al haber más firmas lo esperable es que el precio vaya convergiendo al costo marginal, lo cual muestra como van perdiendo poder de mercado. La colusión es una manera en que las firmas se compromoten a colaborar para aumentar las utilidades personales. 
+La colusión es un acuerdo entre firmas competidoras con tal de reducir esa competición que reduce los beneficios de la firma. En la realidad las colusiones pueden cometerse de diversas formas; Aumento de precios, reducción de oferta, restricciones territoriales y mecanismos de castigo. Es crucial para las instituciones fiscalizadores estudiar y comprender los factores que podrían indicar una colusión o que faciliten un acuerdo colusivo pues estos actos causan graves daños al bienestar y confianza en las instituciones de los mercados. En esta sección veremos con los contenidos repasados anteriormente modelar y entender los factores que facilitan la colusión entre firmas. 
 
-En la realidad se ven distintos tipos de colusiones las cuales dependiendo el producto tomarán diferentes formas; Aumento de precios, reducción de oferta, restricciones territoriales y mecanismos de castigo. Es útil para las instituciones fiscalizadores estudiar y comprender los factores que podrían indicar una colusión o que faciliten un acuerdo colusivo. 
+En el problema de la firma cada empresa maximiza los beneficios propios y no los conjuntos, sin embargo la competencia no es buena para las firmas, al haber más firmas lo esperable es que el precio vaya convergiendo al costo marginal, denotando una perdida de su poder de mercado. La colusión aparece como una forma en que las firmas se compromoten a colaborar para aumentar las utilidades propias. La decisión de coludirse o no colusirse se da considerando tanto los beneficios del hoy como también de los que vendrán en el futuro. 
 
-La teoría de juegos nos ayuda a modelar las decisiones de las firmas mediante \textbf{juegos iterativos}.\marginnote{\textbf{Juegos iterativos:} Juegos en los cuales hay más de un período/turno en que se juega. Pueden ser finitos e infinitos.}[-3cm] Sin embargo hay que considerar un punto muy importante, en caso de períodos finitos no es posible el \textbf{equilibrio perfecto en subjuegos}\marginnote{\textbf{Equilibrio perfecto en subjuegos:} En los juegos dinámicos de información perfecta habrá un equilibrio perfecto en subjuegos cuando se de un equilibrio por inducción en donde todas las decisiones sean creíbles.} colusivo, sólo será posible en iteraciones infinitos lo cual se explicará más adelante.
+\subsection{La colusión desde la Teoría de Juegos}
 
-En este tipo de acuerdos habrá un incentivo a traicionar, es decir, desviarse del acuerdo para conseguir incluso mayores utilidades de las que conseguirían coludiéndose. En caso de que esto ocurra las demás empresas seguirán una \textbf{estrategia gatillo}, provocando que se acabe la fase de colaboración y empiece la fase de castigo. El castigo es empezar a competir normalmente por el resto del juego, ya sea a la Bertrand, Cournot, etc.
+La teoría de juegos nos ayuda a modelar las decisiones de las firmas mediante \textbf{juegos iterativos}\marginnote{\textbf{Juegos iterativos:} Juegos en los cuales hay más de un período/turno en que se juega. Pueden ser finitos e infinitos.}[0cm], en cada período las firmas pueden competir o coludirse, una vez que se haya roto el acuerdo nunca más se vuelven a coludir. En este tipo de acuerdos habrá un incentivo a traicionar, es decir, desviarse del acuerdo para conseguir incluso mayores utilidades de las que conseguirían coludiéndose, pero por solo ese período, ya que en caso de romper la colusión las demás empresas seguirán una \textbf{estrategia gatillo}, provocando que se acabe la fase de colaboración y empiece la fase de castigo. El castigo es empezar a competir normalmente por el resto del juego, ya sea a la Bertrand, Cournot o el tipo de competición que corresponda.
 
-En los casos finitos de $T$ períodos de tiempo nunca habrá incentivos para cooperar en el último período. Como no hay un mañana $T+1$ no habría fase de cástigo por desviarse en $T$, todos preferiran traicionarse el uno al otro. En $T$ nadie coopera lo cual induce a que nadie coopere en $T-1$, el resultado es que nadie coopera en ninguno de los períodos. Nunca hay colusión con períodos finitos, mientras que existen equilibrios colusivos en $T$ infinitos cumpliendose ciertas condiciones. Una empresa se coludirá perpetuamente en caso de que los beneficios de coludirse sean mayores a los de no hacerlo. 
+En la sección de Juegos Secuenciales se mencionó el concepto de Equilibrio Perfecto en Subjuegos (EPS), veremos en casos es posible o imposible conseguir un EPS colusivo. En los casos finitos de $T$ períodos de tiempo nunca habrá incentivos para cooperar en el último período. Como no hay un mañana $T+1$ no habría fase de cástigo por desviarse en $T$, todos preferiran traicionarse el uno al otro. En $T$ nadie coopera lo cual induce a que nadie coopere en $T-1$, el resultado es que nadie coopera en ninguno de los períodos. Nunca hay colusión con períodos finitos.
 
-\subsection*{Planteamiento}
+Por otro lado, existen EPS colusivos en infinitos períodos de tiempo cumpliendose una condición: el valor presente de los beneficios coludiendose deben ser mayores que los beneficios no cooperando. El hecho de que se pueda llegar a un equilibrio cooperativo en juegos repetidos de infinitos periodos es un resultado del \textbf{Teorema de Folk},\marginnote{\textbf{Teorema de Folk:} Teorema que muestra la factibilidad de un equilibrio perfecto en subjuegos cooperativo en un horizonte infinito.}\footnote{El Folk theorem en español se le llama: teorema de tradición oral. Se le llama así pues es un teorema ampliamente usado por distintos autores pero del que no hay un autor claro, lo cual es algo relativamente frecuente en las matemáticas.} el cual nos dice que si los jugadores son suficientemente pacientes e interactuan repetidas veces (infinitas) pueden llegar a un equilibrio perfecto en subjuegos cooperativo.
 
-Las firmas al coludirse estarán ponderando si es que los beneficios de traicionar en el corto plazo compensarán los beneficios de mantenerse coludidos en el largo plazo. Si una firma se desvía quiere decir que en ese turno gana los beneficios extraordinarios $\pi^D$, los cuales suelen ser los beneficios monopólicos $\pi^M$, durante los siguientes turnos por estrategia gatillo todos empiezan a competir obteniendo en este caso $\pi^G$.\footnote{$\pi^G$ va a depender del las condiciones del mercado, demanda, competidores, tipo de competencia; Cournot, Bertrand, Stackelberg, etc.}
+Modelemos este juego con horizonte infinito para aplicar dicho teorema. Las firmas al coludirse estarán ponderando si es que los beneficios de traicionar en el corto plazo compensarán los beneficios de mantenerse coludidos en el largo plazo. Si una firma se desvía quiere decir que en ese turno gana los beneficios extraordinarios $\pi^D$, los cuales suelen ser los beneficios monopólicos $\pi^M$, durante los siguientes turnos por estrategia gatillo todos empiezan a competir obteniendo en este caso $\pi^G$.\footnote{$\pi^G$ va a depender del las condiciones del mercado, demanda, competidores, tipo de competencia; Cournot, Bertrand, Stackelberg, etc.}
 
 Además se tiene que considerar que los beneficios de períodos más lejanos al presente tendrán menos peso para las decisiones de las firmas. De manera similar al modelo de consumo intertemporal vamos a ponderar los períodos futuros por un descuento $0 \leq \delta < 1$ para todos los períodos $t \in 0,1,2,\ldots,T$.
 
-\subsubsection*{Condición de colusión para Bertrand}
-
-Vamos a ver un caso específico para introducirnos en la dinámica. En el caso de un duopolio Bertrand con firmas simétricas ($\pi^G=0$ y $\pi^D = \pi^M$) podemos describir los beneficios de desviarse $V^D$ en el período $t=0$ como,\footnote{El factor $\frac{\delta}{1-\delta}$ viene de la suma geométrica.}
+\textsc{Condición de colusión para Bertrand}. Vamos a ver un caso específico para introducirnos en la dinámica. En el caso de un duopolio Bertrand con firmas simétricas ($\pi^G=0$ y $\pi^D = \pi^M$) podemos describir los beneficios de desviarse $V^D$ en el período $t=0$ como,\footnote{El factor $\frac{\delta}{1-\delta}$ viene de la suma geométrica.}
 \begin{equation}
     V^D = \delta^0 \pi^M + \delta \pi^G + \delta^2 \pi^G+ \ldots + \delta^T \pi^G= \pi^M + \frac{\delta}{1-\delta} \pi^G = \pi^M \label{eq: Desvío del acuerdo competencia a la bertrand}
 \end{equation}
-\ref{eq: Desvío del acuerdo competencia a la bertrand} denota las utilidades de desviarse y obtener beneficios monopólicos en el primer turno y luego competir a la Bertrand obteniendo cero beneficios. En caso de seguir la colusión calculamos $V^C$ como el reparto de las utilidades monopólicas $\frac{\pi^M}{N}$. 
+La ecuación \ref{eq: Desvío del acuerdo competencia a la bertrand} denota las utilidades de desviarse y obtener beneficios monopólicos en el primer turno y luego competir a la Bertrand obteniendo cero beneficios. En caso de seguir la colusión calculamos $V^C$ como el reparto de las utilidades monopólicas $\frac{\pi^M}{N}$. 
 \begin{equation}
     V^C = \delta^0 \frac{\pi^M}{2} + \delta ^1 \frac{\pi^M}{2} + \delta ^2 \frac{\pi^M}{2} +\ldots + \delta^T \frac{\pi^M}{2} = \frac{\pi^M}{2} + \frac{\delta}{1-\delta} \frac{\pi^M}{2}
 \end{equation}
@@ -195,52 +193,35 @@ Para evaluar si esto ocurre tendremos que fijarnos que la tasa de descuento $\de
     \text{Despejando $\delta$ obtenemos la condición} \quad \delta \geq \frac{1}{2}
 \end{align*}
 
-Es decir, mientras se cumpla que $\delta \geq \frac{1}{2}$ el acuerdo colusivo se va a dar en todos los períodos. La interpretación es que si las firmas tienen un nivel de paciencia suficientemente alto para valorar los beneficios de coludirse a largo plazo, preferiran mantener el acuerdo antes de los beneficios de corto plazo del desvío. 
+Es decir, mientras se cumpla que $\delta \geq \frac{1}{2}$ el acuerdo colusivo se va a dar en todos los períodos. El teorema de Folk indica que habrá cierto nivel de paciencia en que las firmas decidan cooperar en un horizonte infinito de interacciones. La interpretación más intuitiva es que si las firmas tienen un nivel de paciencia suficientemente alto para valorar los beneficios de coludirse a largo plazo, preferiran mantener el acuerdo antes de los beneficios de corto plazo del desvío. 
 
-\subsubsection*{Colusiones, caso general}
+\subsubsection*{Condición del Teorema de Folk en el caso general}
 
 Una fórmula general de expresar lo anterior es la siguiente,
 \begin{equation}
     \frac{\delta }{1-\delta} (\pi ^C - \pi^{G}) \geq \pi ^D- \pi^C \label{eq: Condición de colusión generalizada}
 \end{equation}
 
-Donde $\pi^C$ serán los beneficios que recibe la empresa al coludirse con las demás,\footnote{Nótese que es diferente a $\pi^M$ puesto que se tienen que repartir entre las firmas coludidas.} $\pi^D$ son los beneficios del turno al desviarse y $\pi^G$ serán los beneficios donde por estrategia gatillo todas las firmas empiecen a competir. \ref{eq: Condición de colusión generalizada} se interpreta como que los beneficios a largo plazo deben ser más valorados que los beneficios a corto plazo. 
+Donde $\pi^C$ serán los beneficios que recibe la empresa al coludirse con las demás,\footnote{Nótese que es diferente a $\pi^M$ puesto que se tienen que repartir entre las firmas coludidas.} $\pi^D$ son los beneficios del turno al desviarse y $\pi^G$ serán los beneficios donde por estrategia gatillo todas las firmas empiecen a competir. La ecuación \ref{eq: Condición de colusión generalizada} se interpreta como que los beneficios a largo plazo deben ser más valorados que los beneficios a corto plazo. 
 
-De \ref{eq: Condición de colusión generalizada} también podemos despejar el descuento $\delta$. De esta manera conseguiremos el $\delta$ mínimo para asegurar que la colusión se cumpla.
+De la condición \ref{eq: Condición de colusión generalizada} también podemos despejar el descuento $\delta$. De esta manera conseguiremos el $\delta$ mínimo para asegurar que la colusión se cumpla.
 \begin{equation}
     \delta \geq \frac{\pi^D - \pi ^C}{\pi^D- \pi^G} \label{eq: Condición Descuento}
 \end{equation}
 
-\subsection{Factores que facilitan o dificultan la colusión}
+\subsection{Factores que facilitan/dificultan la colusión}
 
-Hay distintos factores que pueden facilitar la colusión, el factor de descuento es uno de ellos. Derivaremos los siguientes factores:
-\begin{itemize}
-    \item A mayor cantidad de firmas más díficil es mantener un equilibrio colusivo.
-    \item Ante una fase de castigo más severa es sea más fácil mantener la colusión.
-    \item En caso de asimetría en las firmas, habrá quienes sean más propensas o menos propensas a mantener el trato.
-\end{itemize}
+Hay distintos factores que pueden facilitar la colusión, el factor de descuento de cierta manera es uno de ellos, sin embargo para un factor de descuento dado la colusión se facilita o se dificulta según los siguientes factores.
 
-\subsubsection*{Cantidad de firmas y acuerdos colusivos}
+\textsc{Cantidad de firmas}. A mayor cantidad de firmas es más difícil mantener un equilibrio colusivo. Para un número de $N$ firmas iguales compitiendo a la Cournot las utilidades de coludirse bajaran con la cantidad de firmas, $\pi^C = \frac{\pi^M}{N}$. Si en un turno una firma se desvía ganan $\pi^M$, para simplificar normalizemos la fase de castigo $\pi^G = 0$.\footnote{Esto no es estrictamente correcto en Cournot a menos que el número de firmas tienda a infinito pero nos sirve para el ejemplo.}
 
-Para un número de $N$ firmas iguales compitiendo a la Cournot las utilidades de coludirse bajaran con la cantidad de firmas, $\pi^C = \frac{\pi^M}{N}$. Si en un turno una firma se desvía ganan $\pi^M$, para simplificar diremos que en la fase de castigo $\pi^G = 0$.
-
-Citando \ref{eq: Condición que tiene un nombre del que no me acuerdo ;(} y reemplazando los beneficios para este caso obtenemos el descuento mínimo necesario para que la colusión sea posible $\bar{\delta}$. 
+Citando la condición \ref{eq: Condición Descuento} y reemplazando los beneficios para este caso obtenemos el descuento mínimo necesario para que la colusión sea posible $\bar{\delta}$. 
 \begin{align*}
-    \delta \geq \frac{\pi^M - \frac{\pi^M}{N}}{\pi ^M - 0} \Longleftrightarrow &\bar{\delta} = 1 - \frac{1}{N} \\
-    & \frac{\partial \bar{\delta}}{\partial N} > 0
+    \delta \geq \frac{\pi^M - \frac{\pi^M}{N}}{\pi ^M - 0} &\Longleftrightarrow \bar{\delta} = 1 - \frac{1}{N} \\
+    &\lim_{N\to \infty} \bar{\delta} = 1
 \end{align*}
+A medida que aumenta el número de firmas es necesario un menor descuento intertemporal con tal de mantener el acuerdo colusivo.
 
-A mayor cantidad de firmas es más difícil que las empresas se coludan pues requieren ponderar en mayor medida los beneficios a largo plazo del acuerdo. Es por esto que las instituciones fiscalizadores ponen especial atención en mercados con pocas firmas. 
+\textsc{Severidad de la fase de castigo}. Mientras más severa, o mejor dicho, mientras más fuerte sea la competencia en fase de castigo más fácil será mantener el acuerdo. Si desviarse conlleva competir y ganar cero beneficios por el resto de la eternidad entonces es más factible cooperar para cualquier nivel de factor de descuento. Podemos decir que coludirse es más factible en Bertrand que en Cournot. En Cournot también podemos hacer el comentario de que mientras más firmas hayan en el mercado más severa será la fase de castigo, por lo que se conecta con el punto anterior. 
 
-\subsubsection*{Fases de castigo y acuerdos colusivos}
-
-Es intuitivo pensar que si el castigo es mayor es más fácil alcanzar un acuerdo colaborativo. Anteriormente se mencionó como Bertrand es un tipo de competencia más fuerte que Cournot, lo cual conlleva que sea más fácil llegar a acuerdos colusivos en Bertrand que en Cournot. Esto se puede ver directamente en la expresión \ref{eq: Condición que tiene un nombre del que no me acuerdo ;(}, competir a la Cournot suele resultar en que $\pi^G$ sea mayor que en Bertrand. 
-\begin{align*}
-    \frac{\partial \bar{\delta}}{\partial \pi^G} > 0
-\end{align*}
-
-Al haber menos castigo es necesaria mayor paciencia para mantener el acuerdo. 
-
-\subsubsection*{Asimetría en las firmas y acuerdos colusivos}
-
-Un punto muy relacionado a lo anterior es el tema de acuerdos colusivo entre firmas asimétricas. En un acuerdo la firma más eficiente tendrá una suerte de dominancia por sobre la otra puesto que en caso de competir la más eficiente saldrá mejor parada. Es por lo anterior que las firmas más eficientes requerirán de mayor paciencia mínima $\bar{\delta}$ para mantener el acuerdo. 
+\textsc{Asimetría de las firmas}. En un acuerdo la firma más eficiente tendrá una fase de castigo menos severa (un mayor $\pi^G$) por lo que tendrá una suerte de dominancia sobre la menos eficiente. Esto se traduce en que una firma más eficiente requerirá de más paciencia para mantener el acuerdo. 
