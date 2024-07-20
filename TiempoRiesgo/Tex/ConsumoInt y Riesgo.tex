@@ -5,6 +5,8 @@ La sustancia del modelo es un consumidor racional que maximiza su utilidad sujet
 
 Los tres factores principales que es importante notar en las siguientes partes de esta sección será que (i) el individuo busca suavizar el consumo dadas ciertas funciones de utilidad, es decir consumir cantidades similares en cada período, (ii) el costo de la deuda y el premio del ahorro llevarán a consumir más en el futuro y (iii) la impaciencia del individuo llevará a consumir más en el presente.
 
+\subsection{Modelo de consumo intertemporal en dos períodos}
+
 Partiremos armando intuitivamente la restricción de cada período para así juntarlas y obtener lo que llamaremos una \textbf{restricción intertemporal}.\marginnote{\textbf{Restricción intertemporal:} Restricción resultante de consumir con un ingresos finitos transferibles entre períodos de tiempo} Algunos supuestos simplificadores que asumiremos será que el individuo solo vive durante dos períodos, la tasa de interés no cambia a lo largo del tiempo, la tasa de interés del ahorro es igual a la del consumo.
 
 \textsc{Restricción intertemporal}. El consumidor partirá consumiendo en el priemr período una cantidad $c_1$, para financiar su consumo recibe de manera exógena un ingreso $y_1$. Lo primero a notar es que es que el individuo va a estar restringido pues todo consumo debe estar respaldado por algun tipo de riqueza, es decir $y_1 \geq c_1$. El factor intertemporal entra en juega cuando incluímos la deuda y ahorro, este factor ahorro/deuda lo denotaremos por $s$, será $>0$ cuando se trate de ahorro y será $<0$ cuando sea deuda. Por lo que la restricción en el primer período no solo considera que el consumo debe estar respaldado por el ingreso, sino que considera que el ingreso puede destinarse a consumo y ahorro, o bien el ingreso se puede complementar con deuda para consumir más en el presente.
@@ -41,7 +43,7 @@ Si quisieramos graficar deberíamos tomar en el eje horizontal el consumo presen
 \end{figure}
 El punto en que el consumidor elija para maximizar su utilidad es suficiente para saber si en su vida ahorro o se endeudó. Es directo ver que si $c_1>y_1$ implica que $s<0$, es decir se está contrayendo deuda para financiar el consumo presente. Para financiar esa deuda el consumidor estará obligado en el futuro a que $c_2<y_2$ pues cierta parte va a ser usada para pagar la deuda. Tanto este caso como el caso en que el individuo ahorra se pueden ver en la figura \ref{fig: restricción intertemporal}. 
 
-% Mencionar interceptos de los gráficos
+% Falta por mencionar interceptos de los gráficos
 
 Un caso que se verá más adelante son las restricciones de liquidez, es decir cuando la tasa a la que uno se endeuda es más alta a la cual uno ahorra.\footnote{Un caso extremo en que la tasa a la que uno se endeuda tiene a infinito llevará inevitablemente a este consumidor racional a comportarse como un consumidor keynesiano.} 
 
@@ -53,11 +55,9 @@ Ya vimos un punto a considerar mencionados al inicio, el costo de la deuda y el 
 \end{equation}
 Vemos que se compone de dos funciones de utilidad para cada período y un factor de descuento. Primero analicemos las funciones de utilidad para entender porque el consumidor tiende a suavizar el consumo. Las funciones de utilidad para cada período $i$ serán tal que $u'(c_i)>0$ y $u''(c_2)<0$, es decir, cada unidad de consumo aumentará la utilidad en ese período pero a rendimientos decrecientes. La concavidad de la función de utilidad se puede interpretar como que el individuo es saciable, llegará un punto en que en vez de consumir esa unidad extra hoy conviene consumirla mañana, pues en el total será una mayor utilidad.
 
-El consumidor tendrá una preferencia por el consumo en el presente por sobre el consumo en futuro. Para modelar esta preferencia añadiremos una \textbf{tasa de impaciencia} que descontará el consumo en futuro. 
-Por conveniencia podemos hacer un cambio de variable y definir $\beta = \frac{1}{1+\rho}$. 
+A pesar de que la utilidad en el presente y futuro sigan una misma función $c(\cdot)$ el consumidor preferirá el consumo presente por sobre el consumo en futuro. Para incluir esta impaciencia se añade una \textbf{tasa de impaciencia} que descontará la utilidad del consumo en futuro. Dado que $\rho>0$ tendremos que se pondera al utilidad en el futuro por un número menor a 1. Por conveniencia podemos hacer un cambio de variable y definir $\beta = \frac{1}{1+\rho}$. 
 
-\subsection{El problema y resolución del consumidor}
-Ahora podemos plantear el problema del consumidor como una función a maximizar sujeto a una restricción.
+Dado que tenemos la utilidad y restricción intertemporal podemos plantear el problema de maximización que enfrenta el individuo.
 \begin{align*}
         \max_{c_1,c_2} & \quad \Bigl\{ u(c_1) + \beta u(c_2) \Bigr\} \\ s.a.& \quad  y_1 + \frac{y_2}{1+r} = c_1 + \frac{c_2}{1+r}
 \end{align*}
@@ -69,17 +69,18 @@ Para resolver este problema definimos el lagrangeano y derivamos las condiciones
         & \lambda = \lambda \longrightarrow u'(c_1) = \left( \frac{1}{1+\rho} \right) u'(c_2)(1+r) \notag \\
         &  \frac{u'(c_1)}{u'(c_2)} = \frac{1+r}{1+\rho} \label{eq: perfil del consumidor}
     \end{align}
-El resultado de la optimización va a ser la expresión \ref{eq: perfil del consumidor}, conocida como la \textbf{ecuación de Euler del consumo}. Esta ecuación se puede interpretar como el perfil del consumidor, como se ajusta el consumo en cada período dada la tasa de interés y la tasa de impaciencia. 
+El resultado de la optimización será la ecuación \ref{eq: perfil del consumidor} la cual describe el cómo se ajusta la relación consumo presente y consumo futuro frente a las tasas de interés e impaciencia. Esta ecuación se le conoce como la \textbf{ecuación de Euler del consumo}, se le refiere también como el perfil del consumidor. Por ejemplo, un aumento de la tasa de interés tiene un efecto positivo sobre el consumo futuro en relación con el consumo presente dado que se premía más el ahorro. Que el consumo presente disminuya implica que la utilidad marginal del consumo presente aumente dado que la función de utilidad tiene rendimientos decrecientes. Por el contrario un aumento en la tasa de impaciencia disminuye el consumo futuro de la bajo el mismo mecanismo.
 
-Por ejemplo, un aumento de la tasa de interés tiene un efecto positivo sobre el consumo futuro en relación con el consumo presente. Que el consumo presente disminuya implica que la utilidad marginal del consumo presente aumente\footnote{Esto debido a los rendimientos decrecientes de la utilidad del consumo.} esto tendría el efecto contrario en el consumo futuro. 
+Podemo notar del perfil del consumidor que las tasas de interés e impaciencia son fuerzas que mueven el consumo en sentidos contrarios: La tasa de interés impulsa el ahorro y por tanto el consumo futuro mientras que la tasa de impaciencia incentiva el consumo presente y por tanto la deuda. Podemos conceptualizar los cambios entre consumo presente y consumo futuro como \textbf{efectos sustitución} y \textbf{efecto ingreso} tomando la tasa de interés como el precio relativo del consumo entre períodos. 
 
-\subsection{Tasa de interés y tasa de impaciencia}
-
-Hasta ahora solo hemos mencionado estas tasas como factores que considera el consumidor para mover su dinero entre períodos. Lo primero que se busca entender es que son fuerzas contrarias, una lleva consumo del presente al futuro y la otra del futuro al presente. Una forma más formal de empezar a entender estas fuerzas es como precios relativos de cada consumo
-
-El precio relativo de consumo presente en relación al consumo futuro es la tasa de interés, puesto que el dinero que no se gaste en el presente será $(1+r)$ más valioso en el futuro. En el perfil del consumidor \ref{eq: perfil del consumidor} un aumento de un $1\%$ en la tasa de interés tendrá un efecto de un $1\%$ en el consumo futuro en relación al consumo presente.
-
-A continuación veremos un caso en que los cambios en los precios relativos del consumo en cada período no tienen una relación 1 a 1 con los ajustes. Es decir que la elasticidad entre estas variables no va a ser igual a 1.
+El precio relativo de consumo presente en relación al consumo futuro es la tasa de interés puesto que el dinero que no se gaste en el presente será $(1+r)$ más valioso en el futuro. Por tanto un aumento en la tasa de interés se toma como un aumento del precio relativo del consumo presente frente al consumo futuro incentivando el consumo de este último: consumir en el presente es más caro pues está considerando mayor costo de oportunidad del dinero. Por el otro lado habrá un efecto ingreso, personas que tienen ingreso ahorrado ante un aumento de la tasa de interés verán aumentada su riqueza y por tanto tenderán a consumir más en ambos períodos. Por el contrario personas que tienen deudas serán más pobres y por tanto reducirán su consumo en ambos períodos. 
+% faltan marginnotes para los conceptos en negrita
+La dirección y el tamaño del ajuste ante cambios en el precio relativo del consumo entre períodos se pueden medir, estamos describiendo una elasticidad. Para esto tomamos el logaritmo natural y derivamos parcialmente por el precio relativo.
+\begin{align*}
+    \ln \left( \frac{u'(c_1)}{u'(c_2)} \right) = \ln (1+r) &- \ln(1+\rho)\\
+    \frac{\partial \ln (u'(c_1)/u'(c_2))}{\partial \ln (1+r)}  &= 1
+\end{align*}
+Vemos que un aumento de un $1\%$ en el precio relativo del consumo entre períodos lleva a un ajuste de $1\%$ en los consumos entre los períodos. Ahora veremos un caso en donde esto no ncesariamente es así, hasta ahora no hemos considerado que las personas son aversas al riesgo. Este factor es ampliamente incluido en diversos modelos macro.
 
 \subsection{Funciones de utilidad con aversión al riesgo}
 
@@ -90,7 +91,7 @@ Un función de utilidad CRRA se puede describir como la expresión \ref{eq: CRRA
     u(c)= \left\{ \begin{array}{lcc} \frac{c^{1-\sigma}-1}{1-\sigma} & \text{si} & \sigma >0,\sigma \neq 1 \\ \\ \ln{(c)} & \text{si} & \sigma = 1 \end{array} \right. \label{eq: CRRA}
 \end{equation}
 
-De la cual si resolvemos como hicimos en el consumo intermtemporal anterior llegaremos a una ecuación de Euler del consumo (expresada en \ref{eq: perfil con aversión al riesgo}). De aquí podemos definir la \textbf{elasticidad intertemporal de sustitución} como el cambio porcentual en la relación marginal de consumo 1 y 2 para un cambio del $1\%$ en el precio relativo del consumo en 1 (tasa de interés). 
+De la cual si resolvemos llegaremos a una ecuación de Euler del consumo de la ecuación \ref{eq: perfil con aversión al riesgo}). De aquí podemos definir la \textbf{elasticidad intertemporal de sustitución} como el cambio porcentual en la relación marginal de consumo 1 y 2 para un cambio del $1\%$ en el precio relativo del consumo en 1 (tasa de interés). 
 \begin{equation}
     \left( \frac{u'(c_1)}{u'(c_2)} \right) ^\sigma=  \frac{1+r}{1+\rho}  \label{eq: perfil con aversión al riesgo}
 \end{equation}
@@ -102,7 +103,7 @@ La elasticidad intertemporal de sustitución describe la magnitud en que el cons
 
 Mientras mayor sea la aversión al riesgo ($\sigma$) el consumidor responderá en menor medida a cambios en estas variables. Es decir, un aumento de $1\%$ en el precio relativo del consumo presente en relación al consumo futuro tendrá un efecto $1/\sigma$ en la relación de consumo futuro y consumo presente.
 
-Mientras mayor sea la $\sigma$ mayor será la aversión al riesgo, representado por una curva más cóncava. 
+Mientras mayor sea la $\sigma$ mayor será la aversión al riesgo, representado por una curva más cóncava. Cuando grafiquemos una función $u(c)$ que sea cóncava está tendrá implícita cierta aversión al riesgo.
 
 \subsection{Restricciones de liquidez}
 

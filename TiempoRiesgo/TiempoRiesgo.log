@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.15)  19 JUL 2024 20:38
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.15)  20 JUL 2024 12:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -372,118 +372,122 @@ Capítulo 4.
 Package marginnote Info: Margin note 3.1 is on absolute page 3 on input line 2.
 Package marginnote Info: xpos seems to be 338.02165pt on input line 2.
  [3]
-Package marginnote Info: Margin note 4.1 is on absolute page 4 on input line 8.
-Package marginnote Info: xpos seems to be 134.26999pt on input line 8.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 10.
+Package marginnote Info: Margin note 4.1 is on absolute page 4 on input line 10.
+Package marginnote Info: xpos seems to be 134.26999pt on input line 10.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 12.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 10.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 12.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Package marginnote Info: Margin note 4.2 is on absolute page 5 on input line 29.
-Package marginnote Info: xpos seems to be 316.86514pt on input line 29.
-Package marginnote Info: Margin note 4.3 is on absolute page 5 on input line 29.
-Package marginnote Info: xpos seems to be 443.95398pt on input line 29.
-LaTeX Info: Redefining \. on input line 30.
-LaTeX Info: Redefining \% on input line 30.
+LaTeX Info: Redefining \. on input line 27.
+LaTeX Info: Redefining \% on input line 27.
  [4]
+Package marginnote Info: Margin note 5.1 is on absolute page 5 on input line 31.
+Package marginnote Info: xpos seems to be 316.86514pt on input line 31.
+Package marginnote Info: Margin note 5.2 is on absolute page 5 on input line 31.
+Package marginnote Info: xpos seems to be 443.95398pt on input line 31.
 File: Figuras/CI Restriccion intertemporal.jpeg Graphic file (type bmp)
 <Figuras/CI Restriccion intertemporal.jpeg>
-LaTeX Info: Redefining \. on input line 43.
-LaTeX Info: Redefining \% on input line 43.
+LaTeX Info: Redefining \. on input line 51.
+LaTeX Info: Redefining \% on input line 51.
 
 Overfull \hbox (5.12003pt too wide) has occurred while \output is active
 \TU/lmr/m/sl/12 4.1.  OPTIMIZACIÓN INTERTEMPORAL Y LA AVERSIÓN AL CAMBIO \TU/lmr/m/n/12 5
  []
 
 [5]
-Underfull \vbox (badness 3291) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 63.
-LaTeX Info: Redefining \% on input line 63.
+LaTeX Info: Redefining \. on input line 59.
+LaTeX Info: Redefining \% on input line 59.
  [6]
-LaTeX Info: Redefining \. on input line 80.
-LaTeX Info: Redefining \% on input line 80.
+LaTeX Info: Redefining \. on input line 75.
+LaTeX Info: Redefining \% on input line 75.
 
 Overfull \hbox (5.12003pt too wide) has occurred while \output is active
 \TU/lmr/m/sl/12 4.1.  OPTIMIZACIÓN INTERTEMPORAL Y LA AVERSIÓN AL CAMBIO \TU/lmr/m/n/12 7
  []
 
 [7]
-LaTeX Info: Redefining \. on input line 104.
-LaTeX Info: Redefining \% on input line 104.
+LaTeX Info: Redefining \. on input line 92.
+LaTeX Info: Redefining \% on input line 92.
  [8]
 File: Figuras/CI Restricciones de liquidez.jpeg Graphic file (type bmp)
 <Figuras/CI Restricciones de liquidez.jpeg>
-)
-LaTeX Info: Redefining \. on input line 33.
-LaTeX Info: Redefining \% on input line 33.
+LaTeX Info: Redefining \. on input line 119.
+LaTeX Info: Redefining \% on input line 119.
 
 Overfull \hbox (5.12003pt too wide) has occurred while \output is active
 \TU/lmr/m/sl/12 4.1.  OPTIMIZACIÓN INTERTEMPORAL Y LA AVERSIÓN AL CAMBIO \TU/lmr/m/n/12 9
  []
 
-[9] (./Tex/La teoria de mercados eficientes.tex
-Package marginnote Info: Margin note 10.1 is on absolute page 10 on input line 5.
-Package marginnote Info: xpos seems to be 304.59964pt on input line 5.
+[9])
+LaTeX Info: Redefining \. on input line 33.
+LaTeX Info: Redefining \% on input line 33.
+ [10] (./Tex/La teoria de mercados eficientes.tex
+Package marginnote Info: Margin note 11.1 is on absolute page 11 on input line 5.
+Package marginnote Info: xpos seems to be 259.59964pt on input line 5.
 File: Figuras/Curvas de indiferencia riesgo-retorno.jpeg Graphic file (type bmp)
 <Figuras/Curvas de indiferencia riesgo-retorno.jpeg>
+
+Underfull \vbox (badness 1097) has occurred while \output is active []
+
 LaTeX Info: Redefining \. on input line 16.
 LaTeX Info: Redefining \% on input line 16.
- [10]
-Package marginnote Info: Margin note 11.1 is on absolute page 11 on input line 19.
-Package marginnote Info: xpos seems to be 333.94759pt on input line 19.
-Package marginnote Info: Margin note 11.2 is on absolute page 12 on input line 25.
-Package marginnote Info: xpos seems to be 323.22032pt on input line 25.
-LaTeX Info: Redefining \. on input line 26.
-LaTeX Info: Redefining \% on input line 26.
  [11]
-LaTeX Info: Redefining \. on input line 46.
-LaTeX Info: Redefining \% on input line 46.
+Package marginnote Info: Margin note 12.1 is on absolute page 12 on input line 19.
+Package marginnote Info: xpos seems to be 378.94759pt on input line 19.
+Package marginnote Info: Margin note 12.2 is on absolute page 12 on input line 25.
+Package marginnote Info: xpos seems to be 323.22032pt on input line 25.
+LaTeX Info: Redefining \. on input line 34.
+LaTeX Info: Redefining \% on input line 34.
  [12]
 File: Figuras/Riesgo de un portafolio y reduccion de riesgo.jpeg Graphic file (type bmp)
 <Figuras/Riesgo de un portafolio y reduccion de riesgo.jpeg>
-
-Underfull \vbox (badness 1092) has occurred while \output is active []
-
 LaTeX Info: Redefining \. on input line 59.
 LaTeX Info: Redefining \% on input line 59.
  [13])
+LaTeX Info: Redefining \. on input line 36.
+LaTeX Info: Redefining \% on input line 36.
+ [14]
 LaTeX Info: Redefining \. on input line 37.
 LaTeX Info: Redefining \% on input line 37.
- [14] (./Tex/Ap TiempoRiesgo.tex
+ [15]
+LaTeX Info: Redefining \. on input line 39.
+LaTeX Info: Redefining \% on input line 39.
+ [16
+
+] (./Tex/Ap TiempoRiesgo.tex
 Apéndice A.
 
 Underfull \vbox (badness 3189) has occurred while \output is active []
 
- [15
-
+ [17
 
 ]
 LaTeX Info: Redefining \. on input line 55.
 LaTeX Info: Redefining \% on input line 55.
- [16]
+ [18]
 LaTeX Info: Redefining \. on input line 78.
 LaTeX Info: Redefining \% on input line 78.
- [17])
+ [19])
 LaTeX Info: Redefining \. on input line 43.
 LaTeX Info: Redefining \% on input line 43.
- [18] (./TiempoRiesgo.aux
+ [20] (./TiempoRiesgo.aux
 LaTeX Info: Redefining \. on input line 22.
 LaTeX Info: Redefining \% on input line 22.
 )
 Package rerunfilecheck Info: File `TiempoRiesgo.out' has not changed.
-(rerunfilecheck)             Checksum: 4D0741B5C188B09D9953884A3AD200F1;2919.
+(rerunfilecheck)             Checksum: 93D7107132A510AB9629B0B714E26203;2768.
  ) 
 Here is how much of TeX's memory you used:
  11419 strings out of 476683
  183875 string characters out of 5804047
- 1856018 words of memory out of 5000000
+ 1858018 words of memory out of 5000000
  31465 multiletter control sequences out of 15000+600000
  519111 words of font info for 74 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  72i,12n,76p,1011b,475s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on TiempoRiesgo.xdv (18 pages, 258396 bytes).
+Output written on TiempoRiesgo.xdv (20 pages, 272060 bytes).
