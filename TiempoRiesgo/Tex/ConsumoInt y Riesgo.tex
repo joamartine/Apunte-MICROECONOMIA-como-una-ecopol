@@ -1,16 +1,13 @@
 \section{Optimización intertemporal y la aversión al cambio}
-\subsection{Introducción al modelo de consumo intertemporal}
-El economista y estadístico \textbf{Irving Fisher}\marginnote{\textbf{Irving Fisher 1867-1947:} Economista y estadístico estadounidense reconocido por sus avances en la teoría económica (Ecuación de Fisher, hipótesis de Fisher, teorema de separabilidad de Fisher...).} desarrolló en gran parte uno de los modelos más influyentes en como entendemos que se toman las decisiones de consumo a lo largo del tiempo. Para esto tenemos que pensar en un individuo que se detiene a pensar en el presente cuanto consumirá ahora y cuanto consumirá en cada período en el futuro. 
+El economista y estadístico \textbf{Irving Fisher}\marginnote{\textbf{Irving Fisher 1867-1947:} Economista y estadístico estadounidense reconocido por sus avances en la teoría económica (Ecuación de Fisher, hipótesis de Fisher, teorema de separabilidad de Fisher...).} ayudó a desarrollar uno de los modelos más influyentes en como entendemos que se toman las decisiones de consumo a lo largo del tiempo. El objetivo es entender lo que lleva a individuos a suavizar el consumo a través del tiempo reconociendo también los factores que impulsan el consumo hacía el presente mediante deuda o al futuro mediante ahorros.
 
-Este modelo considera un consumidor racional que enfrenta restricciones a su consumo a lo largo del tiempo. Una simplificación que haremos para presentar el modelo será que el consumidor solo vive dos períodos. 
+La sustancia del modelo es un consumidor racional que maximiza su utilidad sujeto a ciertas restricciones. Las restricciones de cada período tales como ingreso, pueden ser unificadas mediante el ahorro o la deuda que haya tomado el individuo en algun momento del tiempo, por lo que se puede escribir una gran restricción intertemporal que considera el ingreso e intereses que cobra o paga el individuo a lo largo de su vida. 
 
-Uno de los factores más importantes de este modelo es la capacidad de que el individuo ahorre y contraiga deuda. Es la manera en que el consumidor podrá transportar dinero del presente al futuro (ahorro) o viceversa del futuro al presente (deuda).
+Los tres factores principales que es importante notar en las siguientes partes de esta sección será que (i) el individuo busca suavizar el consumo dadas ciertas funciones de utilidad, es decir consumir cantidades similares en cada período, (ii) el costo de la deuda y el premio del ahorro llevarán a consumir más en el futuro y (iii) la impaciencia del individuo llevará a consumir más en el presente.
 
-Partiremos armando intuitivamente la restricción de cada período para así juntarlas y obtener lo que llamaremos una \textbf{restricción intertemporal}.
+Partiremos armando intuitivamente la restricción de cada período para así juntarlas y obtener lo que llamaremos una \textbf{restricción intertemporal}.\marginnote{\textbf{Restricción intertemporal:} Restricción resultante de consumir con un ingresos finitos transferibles entre períodos de tiempo} Algunos supuestos simplificadores que asumiremos será que el individuo solo vive durante dos períodos, la tasa de interés no cambia a lo largo del tiempo, la tasa de interés del ahorro es igual a la del consumo.
 
-\subsection{Restricción intertemporal}
-\marginnote{\textbf{Restricción intertemporal:} Restricción resultante de consumir con un ingresos finitos transferibles entre períodos de tiempo}
-El individuo representativo partirá consumiendo en el período uno ($c_1$), para financiar su consumo recibirá un ingreso $y_1$. Lo primero que podemos sacar es que el individuo va a estar restringido pues todo consumo debe estar respaldado por ingreso, $y_1 \geq c_1$. Aquí vamos a añadir otro factor a la mezcla, el individuo podrá ahorrar o endeudarse. Este factor ahorro/deuda lo denotaremos por $s$, será $>0$ cuando se trate de ahorro y será $<0$ cuando sea deuda.
+\textsc{Restricción intertemporal}. El consumidor partirá consumiendo en el priemr período una cantidad $c_1$, para financiar su consumo recibe de manera exógena un ingreso $y_1$. Lo primero a notar es que es que el individuo va a estar restringido pues todo consumo debe estar respaldado por algun tipo de riqueza, es decir $y_1 \geq c_1$. El factor intertemporal entra en juega cuando incluímos la deuda y ahorro, este factor ahorro/deuda lo denotaremos por $s$, será $>0$ cuando se trate de ahorro y será $<0$ cuando sea deuda. Por lo que la restricción en el primer período no solo considera que el consumo debe estar respaldado por el ingreso, sino que considera que el ingreso puede destinarse a consumo y ahorro, o bien el ingreso se puede complementar con deuda para consumir más en el presente.
 
 Con esto ya podemos definir la restricción en el primer período como la ecuación \ref{eq: rest 1}.
 \begin{equation}
@@ -19,47 +16,44 @@ Con esto ya podemos definir la restricción en el primer período como la ecuaci
 
 En el segundo período la restricción seguirá la misma lógica, lo que hay que considerar adicionalmente es que hay una tasa de interés ($r$) de por medio para cuando uno ahorra o se endeuda. Por lo que los ingresos $y$ en un período, se convertirán en $y(1+r)$ en el siguiente período.
 
-La restricción del segundo período puede ser descrita como la ecuación \ref{eq: rest 2}.
+Por lo tanto el ingreso en el segundo período se destina a consumo o a pagar las deudas pendientes, en caso de que el individuo haya ahorrado en el período anterior se podrá consumir más, no solo por la transferencia de dinero del pasado al presente sino que también el premio al ahorro que es la tasa de interés. La restricción del segundo período puede ser descrita como la ecuación \ref{eq: rest 2}.
 \begin{equation}
     y_2 = c_2 - s(1+r) \label{eq: rest 2}
 \end{equation}
 
-Teniendo las restricciones para los dos períodos podemos describir una restricción intertemporal combinandolas. Para esto reemplazamos $s$ de \ref{eq: rest 1} en \ref{eq: rest 2}.
+Teniendo las restricciones para los dos períodos podemos describir una restricción intertemporal combinandolas mediante $s$. Para esto reemplazamos $s$ de \ref{eq: rest 1} en \ref{eq: rest 2}.
 \begin{equation*}
     y_2 = c_2 - (1+r)(y_1-c_1) 
 \end{equation*}
 
-Reordenando podemos encontrar dos expresiones útiles que representan la misma restricción, las dos significan que todo el consumo tiene que ser financiado por ingreso. 
-
-La expresión \ref{eq: valor futuro} está ordenada de forma que los ingresos presentes sean traídos a \textbf{valor futuro},\marginnote{\textbf{Valor futuro:} El valor que tendrá cierta monto en un período futuro dadas las oportunidades de ahorro/inversión.}[-4cm]mientras que \ref{eq: valor presente} está expresado de forma en que los ingresos futuros sean traídos a \textbf{valor presente}.\marginnote{\textbf{Valor presente:} El valor que tiene cierto monto en el futuro traído a lo que valdría hoy dadas las oportunidades de ahorro/inversión.}
+Reordenando podemos encontrar dos expresiones útiles que representan la misma restricción, las dos significan que todo el consumo tiene que ser financiado por ingreso. La expresión \ref{eq: valor futuro} está ordenada de forma que los ingresos presentes sean traídos a \textbf{valor futuro},\marginnote{\textbf{Valor futuro:} El valor que tendrá cierta monto en un período futuro dadas las oportunidades de ahorro/inversión.}[-4cm] mientras que \ref{eq: valor presente} está expresado de forma en que los ingresos futuros sean traídos a \textbf{valor presente}.\marginnote{\textbf{Valor presente:} El valor que tiene cierto monto en el futuro traído a lo que valdría hoy dadas las oportunidades de ahorro/inversión.} Ambas vienen a signficar lo mismo, el consumo debe estar respaldado por algún tipo de riqueza, ya sea ingresos o ahorros.
 \begin{align}
     y_1(1+r) + y_2 &= c_1(1+r) + c_2 \label{eq: valor futuro} \\
     \quad & \quad \notag\\
     y_1 + \frac{y_2}{1+r} &= c_1 + \frac{y_2}{1+r} \label{eq: valor presente}
 \end{align}
-
-Esta restricción intertemporal puede ser graficada tal como una restricción presupuestaria (Véase la figura \ref{fig: restricción intertemporal}). De esta recta el consumidor decidirá en qué punto maximiza su utilidad, de este punto sabremos si el consumidor se está endeudando o ahorrando. 
+Si quisieramos graficar deberíamos tomar en el eje horizontal el consumo presente y en el eje vertical el consumo futuro, de esta manera la restricción intertemporal puede ser graficada tal como una restricción presupuestaria (Véase la figura \ref{fig: restricción intertemporal}). De estos puntos factibles el consumidor decidirá el punto de la recta que maximiza su utilidad.
 \begin{figure}
     \centering
     \caption{Restricción intertemporal}
     \includegraphics[width=\textwidth]{Figuras/CI Restriccion intertemporal.jpeg}
     \label{fig: restricción intertemporal}
 \end{figure}
+El punto en que el consumidor elija para maximizar su utilidad es suficiente para saber si en su vida ahorro o se endeudó. Es directo ver que si $c_1>y_1$ implica que $s<0$, es decir se está contrayendo deuda para financiar el consumo presente. Para financiar esa deuda el consumidor estará obligado en el futuro a que $c_2<y_2$ pues cierta parte va a ser usada para pagar la deuda. Tanto este caso como el caso en que el individuo ahorra se pueden ver en la figura \ref{fig: restricción intertemporal}. 
 
-El punto en que el consumidor elija para maximizar su utilidad podrá ser utilizado para ver si está ahorrando o endeudándose. Es directo ver que si $c_1>y_1$ implica que $s<0$, es decir se está contrayendo deuda para financiar el consumo presente. Para financiar esa deuda el consumidor estará obligado en el futuro a que $c_2<y_2$ pues cierta parte va a ser usada para pagar la deuda. Tanto este caso como el caso en que el individuo ahorra se pueden ver en la figura \ref{fig: restricción intertemporal}.
-
-Por otro lado es relevante entender por qué el consumo máximo de $c_2$ en la figura está en valor futuro, mientras que el consumo máximo $c_1$ está en valor presente. 
+% Mencionar interceptos de los gráficos
 
 Un caso que se verá más adelante son las restricciones de liquidez, es decir cuando la tasa a la que uno se endeuda es más alta a la cual uno ahorra.\footnote{Un caso extremo en que la tasa a la que uno se endeuda tiene a infinito llevará inevitablemente a este consumidor racional a comportarse como un consumidor keynesiano.} 
 
-\subsection{El consumidor}
+Ya vimos un punto a considerar mencionados al inicio, el costo de la deuda y el premio del ahorro llevan consumir más en el futuro. Un ingreso $y$ ahora que se ahorra será $y(1+r)$ en el siguiente período, por lo cual podríamos consumir más en el futuro. Entonces ¿Por qué el consumidor no ahorra todo su ingreso al inicio para maiximizar el ingreso y por tanto el consumo que le da felicidad? Para responder esta pregunta es necesario tomar en consideración los puntos que nos faltan que se relacionan con las preferencias del individuo por suavizar el consumo y las de impaciencia. 
 
-El consumidor racional en esta ocasión maximizará utilidad mediante consumo en dos períodos. Tendrá una función de utilidad para un período $i$ tal que $u'(c_i)>0$ y $u''(c_2)<0$, es decir, es decir cada unidad de consumo tendrá efectos positivos sobre su utilidad pero a rendimientos decrecientes. La concavidad de la función de utilidad se puede interpretar como que el individuo es saciable y esa es una de las razones por las que preferirá suavizar su consumo a lo largo del tiempo
-
-La utilidad entre estos dos períodos puede ser expresado simplemente como la suma entre $u(c_1)$ y $u(c_2)$ pero añadiremos un matiz más. El consumidor tendrá una preferencia por el consumo en el presente por sobre el consumo en futuro. Para modelar esta preferencia añadiremos una \textbf{tasa de impaciencia} que descontará el consumo en futuro. Podemos expresar la función de utilidad entre los dos períodos en la ecuación \ref{eq: ut intertemporal}.
+\textsc{El Consumidor}. Podemos expresar la función de utilidad entre los dos períodos en la ecuación \ref{eq: ut intertemporal}.
 \begin{equation}
     U(c_1,c_2) = u(c_1) + \frac{1}{1+\rho} u(c_2) \label{eq: ut intertemporal}
 \end{equation}
+Vemos que se compone de dos funciones de utilidad para cada período y un factor de descuento. Primero analicemos las funciones de utilidad para entender porque el consumidor tiende a suavizar el consumo. Las funciones de utilidad para cada período $i$ serán tal que $u'(c_i)>0$ y $u''(c_2)<0$, es decir, cada unidad de consumo aumentará la utilidad en ese período pero a rendimientos decrecientes. La concavidad de la función de utilidad se puede interpretar como que el individuo es saciable, llegará un punto en que en vez de consumir esa unidad extra hoy conviene consumirla mañana, pues en el total será una mayor utilidad.
+
+El consumidor tendrá una preferencia por el consumo en el presente por sobre el consumo en futuro. Para modelar esta preferencia añadiremos una \textbf{tasa de impaciencia} que descontará el consumo en futuro. 
 Por conveniencia podemos hacer un cambio de variable y definir $\beta = \frac{1}{1+\rho}$. 
 
 \subsection{El problema y resolución del consumidor}

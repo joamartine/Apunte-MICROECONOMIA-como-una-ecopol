@@ -1,4 +1,4 @@
-\section{Teoría de juegos}
+\section{Teoría de Juegos}
 
 La teoría de juegos es una herramienta fundamental para entender las estrategias en interacciones de todo tipo en la economía. Modelar sirve para entender los elementos que entran en juego los cuales se pueden instrumentalizar con tal de obtener una situación deseado, como puede ser incentivar la cooperación o la competencia en un mercado. 
 
@@ -197,4 +197,44 @@ Resolver un juego secuencial por el método inductivo nos llevará a encontrar u
 
 \subsection{Estrategias Mixtas}
 
-Las estrategias mixtas consisten en asignar una probabilidad de tomas de decisiones. Bajo estrategias mixtas siempre podremos resolver los juegos que nos plantearemos en el apunte.\footnote{En este proceso simplemente le estamos dando una estructura clara a la maximización de pago de los individuos con tal de siempre obtener un resultado consistente.}
+Hasta ahora hemos vistos diversos juegos que no tienen un resultado certero, por ejemplo en \textit{Chicken} ambos jugadores buscan hacer lo opuesto al otro. Por lo que el salir perdiendo o ganando se reduce a tratar de sorprender al otro, por lo que la incertidumbre es un elemento fundamental de este tipo de intereacciones.  
+
+La incertidumbre únicamente algo con lo que lidiar sino que puede ser instrumentalizada: las auditorias aleatorias con tal de fiscalizar tienen el objetivo de disuadir comportamientos fuera de regla. En este sentido el jugador fiscalizador no elige una pura estrategia como podría ser fiscalizar siempre, lo cual sería altamente costoso. En este caso conviene asignar probabilidades a cada estrategia (fiscalizar, no fiscalizar), con tal de disuadir comportamientos fuera de regla mientras se minimizan costos.
+
+Lo que vamos a hacer será cambiar las reglas del juego: Anteriormente teníamos estrategias puras, los jugadores tenían que decidir la acción que tomar, ahora les pediremos a los jugadores que eligan un vector de probabilidades que le deben de asignar a cada decisión. Esta re estruturación del juego nos permitirá tener una idea más clara del resultado en juegos donde habían más de un equilibrio de Nash. Las estrategias mixtas entonces consisten en asignar una probabilidad entre 0 y 1 a cada una de las posibles estrategias disponibles con tal de que todas sumen 1. Tomemos el juego sencillo y asignemosle una probabilidad a cada estrategia. En los penales del Futbol la idea es predecir que lado elegirá el contrario para patear al otro lado o atajar a ese mismo lado. Bajo este contexto podemos definir la siguiente matriz de pago. 
+\begin{center}
+\begin{tabular}{*{4}{c|}}
+  \multicolumn{2}{c}{} & \multicolumn{2}{c}{Arquero}\\\cline{3-4}
+  \multicolumn{1}{c}{} &  & Izquierda & Derecha \\\cline{2-4}
+  \multirow{2}*{Jugador}  & Izquierda & $(0,0)$ & $(1,-1)$ \\\cline{2-4}
+  & Derecha & $(1,-1)$ & $(0,0)$ \\\cline{2-4}
+\end{tabular} 
+\end{center}
+
+Por lo tanto cada jugador asignará una probabilida  $p$ o $q$ a tirar a la derecha y por descarte (la suma de las probabilidades deben ser uno) la otra estrategia se tomará con una probabilidad $1-p$ y $1-q$.
+
+\begin{center}
+\begin{tabular}{cccc}
+  Estrategias & Probabilidad & Pago Jugador & Pago Arquero \\
+  D,D & $p\cdot q$ & 0 & 0 \\
+  D,I & $p \cdot (1-q)$ & 1 & -1 \\
+  I,D & $(1-p)\cdot q$ & 1 & -1 \\
+  I,I & $(1-p)\cdot (1-q)$ & 0 & 0 
+\end{tabular}
+\end{center}
+
+Por lo tanto la esperanza de pagos (utilidad) en este caso será para cada uno,
+\begin{align*}
+  \mathbb{E}(U^J) =& pq\cdot 0 + p(1-q)\cdot 1 + (1-p)q\cdot 1 + (1-p)(1-q)\cdot 0 + p \\
+  = & p-qp + q-pq = p(1-2q) + q
+\end{align*}
+El caso del arquero tendrá la siguiente utilidad esperada,
+\begin{align*}
+  \mathbb{E}(U^A) =& pq \cdot 0 + p(1-q)\cdot(-1) + (1-p)q \cdot (-1) + (1-p)(1-q) \cdot 0 \\ = & -p+pq -q+pq = q(2p-1)-p
+\end{align*}
+Lo que necesitamos para encontrar el equilibrio de Nash es entender la función de reacción óptima, en el caso del jugador que patea este debe decidir $p$ en función de $q$. En la utilidad esperada del jugador la parte importante de analizar será el término $(1-2q)$ lo demás lo podemos tomar como constante. En específico nos preguntaremos que hacer en caso de que $1-2q$ sea mayor, igual o menor a cero.
+\begin{itemize}
+  \item En caso de que $q > 1/2$ entonces el arquero tiene una mayor probabilidad de tirarse a la derecha, por lo que la función de reacción óptima indicaría que habría que patear a la izquierda. Fíjese que si $q>1/2$ entonces $1-2q<0$ por lo que para maximizar la utilidad esperada habría que asignar $p = 0$. Básicamente, si es más probable que el arquero se tire a la izquierdo entonces asigno $100\%$ de proabilidad de patear hacia la izquierda. 
+  \item El caso contrario en que el arquero tenga una mayor probabilidad de tirarse a la izquierda $q<1/2$ el jugador maximizará su utilidad esperada pateando a la derecha. Para tal $q$ el término $1-2q>0$ por lo que conviene aumentar la probabilidad de patear a la derecha al máximo. 
+  \item Por último en caso de que $q = 1/2$ no hay una probabilidad óptima certera entonces se toma un $p$ cualquiera entre 0 y 1.\footnote{Técnicamente esta respuesta no es una función pues asigna más de resultado a un solo punto del dominio. Para efectos del curso esto no genera ningún problema.}
+\end{itemize}
