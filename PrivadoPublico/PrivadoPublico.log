@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.15)  20 JUL 2024 12:44
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.15)  25 JUL 2024 09:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -371,140 +371,154 @@ Capítulo 3.
 (./Tex/EquilibrioGeneral.tex
 Package marginnote Info: Margin note 3.1 is on absolute page 3 on input line 9.
 Package marginnote Info: xpos seems to be 314.03339pt on input line 9.
- [3]
-Package marginnote Info: Margin note 4.1 is on absolute page 4 on input line 13.
-Package marginnote Info: xpos seems to be 398.22173pt on input line 13.
-Package marginnote Info: Margin note 4.2 is on absolute page 4 on input line 19.
-Package marginnote Info: xpos seems to be 224.67233pt on input line 19.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 19.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 9.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 19.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 9.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Info: Redefining \. on input line 26.
-LaTeX Info: Redefining \% on input line 26.
+) [3]
+Package marginnote Info: Margin note 4.1 is on absolute page 4 on input line 13.
+Package marginnote Info: xpos seems to be 398.22173pt on input line 13.
+Package marginnote Info: Margin note 4.2 is on absolute page 4 on input line 17.
+Package marginnote Info: xpos seems to be 355.26141pt on input line 17.
+LaTeX Info: Redefining \. on input line 22.
+LaTeX Info: Redefining \% on input line 22.
  [4]
-Package marginnote Info: Margin note 5.1 is on absolute page 5 on input line 27.
-Package marginnote Info: xpos seems to be 378.98434pt on input line 27.
-LaTeX Info: Redefining \. on input line 42.
-LaTeX Info: Redefining \% on input line 42.
+Package marginnote Info: Margin note 5.1 is on absolute page 5 on input line 25.
+Package marginnote Info: xpos seems to be 476.00598pt on input line 25.
+Package marginnote Info: Margin note 5.2 is on absolute page 5 on input line 32.
+Package marginnote Info: xpos seems to be 400.82947pt on input line 32.
+Package marginnote Info: Margin note 5.3 is on absolute page 5 on input line 32.
+Package marginnote Info: xpos seems to be 268.86877pt on input line 32.
+Package marginnote Info: Margin note 5.4 is on absolute page 5 on input line 32.
+Package marginnote Info: xpos seems to be 131.642pt on input line 32.
+LaTeX Info: Redefining \. on input line 38.
+LaTeX Info: Redefining \% on input line 38.
  [5]
-Package marginnote Info: Margin note 6.1 is on absolute page 6 on input line 48.
-Package marginnote Info: xpos seems to be 282.67984pt on input line 48.
-Package marginnote Info: Margin note 6.2 is on absolute page 6 on input line 48.
-Package marginnote Info: xpos seems to be 417.81342pt on input line 48.
-Package marginnote Info: Margin note 6.3 is on absolute page 6 on input line 48.
-Package marginnote Info: xpos seems to be 524.26999pt on input line 48.
+Package marginnote Info: Margin note 6.1 is on absolute page 6 on input line 46.
+Package marginnote Info: xpos seems to be 282.67984pt on input line 46.
+Package marginnote Info: Margin note 6.2 is on absolute page 6 on input line 46.
+Package marginnote Info: xpos seems to be 417.81342pt on input line 46.
+Package marginnote Info: Margin note 6.3 is on absolute page 6 on input line 46.
+Package marginnote Info: xpos seems to be 524.26999pt on input line 46.
 File: Figuras/EG Dotacion inicial.jpeg Graphic file (type bmp)
 <Figuras/EG Dotacion inicial.jpeg>
+LaTeX Info: Redefining \. on input line 67.
+LaTeX Info: Redefining \% on input line 67.
+ [6]
 File: Figuras/EG Curvas de indiferencias.jpeg Graphic file (type bmp)
 <Figuras/EG Curvas de indiferencias.jpeg>
-LaTeX Info: Redefining \. on input line 77.
-LaTeX Info: Redefining \% on input line 77.
- [6]
-Package marginnote Info: Margin note 7.1 is on absolute page 7 on input line 80.
-Package marginnote Info: xpos seems to be 479.26999pt on input line 80.
-Package marginnote Info: Margin note 7.2 is on absolute page 7 on input line 80.
-Package marginnote Info: xpos seems to be 426.53017pt on input line 80.
-Package marginnote Info: Margin note 7.3 is on absolute page 7 on input line 80.
-Package marginnote Info: xpos seems to be 128.37799pt on input line 80.
+Package marginnote Info: Margin note 7.1 is on absolute page 7 on input line 78.
+Package marginnote Info: xpos seems to be 479.26999pt on input line 78.
+Package marginnote Info: Margin note 7.2 is on absolute page 8 on input line 78.
+Package marginnote Info: xpos seems to be 471.53017pt on input line 78.
+Package marginnote Info: Margin note 7.3 is on absolute page 8 on input line 78.
+Package marginnote Info: xpos seems to be 173.37799pt on input line 78.
+LaTeX Info: Redefining \. on input line 79.
+LaTeX Info: Redefining \% on input line 79.
+ [7]
+Package marginnote Info: Margin note 8.1 is on absolute page 8 on input line 83.
+Package marginnote Info: xpos seems to be 281.52667pt on input line 83.
+
+Underfull \vbox (badness 4479) has occurred while \output is active []
+
 LaTeX Info: Redefining \. on input line 84.
 LaTeX Info: Redefining \% on input line 84.
- [7]
-Package marginnote Info: Margin note 8.1 is on absolute page 8 on input line 85.
-Package marginnote Info: xpos seems to be 281.52667pt on input line 85.
-LaTeX Info: Redefining \. on input line 92.
-LaTeX Info: Redefining \% on input line 92.
  [8]
-Package marginnote Info: Margin note 9.1 is on absolute page 9 on input line 93.
-Package marginnote Info: xpos seems to be 207.9058pt on input line 93.
-LaTeX Info: Redefining \. on input line 122.
-LaTeX Info: Redefining \% on input line 122.
+Package marginnote Info: Margin note 9.1 is on absolute page 9 on input line 91.
+Package marginnote Info: xpos seems to be 207.9058pt on input line 91.
+LaTeX Info: Redefining \. on input line 112.
+LaTeX Info: Redefining \% on input line 112.
  [9]
 File: Figuras/EG Curva de contrato.jpeg Graphic file (type bmp)
 <Figuras/EG Curva de contrato.jpeg>
-Package marginnote Info: Margin note 10.1 is on absolute page 11 on input line 137.
-Package marginnote Info: xpos seems to be 390.98839pt on input line 137.
-LaTeX Info: Redefining \. on input line 138.
-LaTeX Info: Redefining \% on input line 138.
+Package marginnote Info: Margin note 10.1 is on absolute page 10 on input line 135.
+Package marginnote Info: xpos seems to be 435.98839pt on input line 135.
+LaTeX Info: Redefining \. on input line 148.
+LaTeX Info: Redefining \% on input line 148.
  [10]
-LaTeX Info: Redefining \. on input line 174.
-LaTeX Info: Redefining \% on input line 174.
+LaTeX Info: Redefining \. on input line 162.
+LaTeX Info: Redefining \% on input line 162.
  [11]
-LaTeX Info: Redefining \. on input line 195.
-LaTeX Info: Redefining \% on input line 195.
+LaTeX Info: Redefining \. on input line 189.
+LaTeX Info: Redefining \% on input line 189.
  [12]
-Overfull \hbox (3.43672pt too wide) in paragraph at lines 196--196
+Overfull \hbox (3.43672pt too wide) in paragraph at lines 195--195
 []\TU/lmr/bx/n/14.4 Teoremas fundamentales de la economía del bien-
  []
 
-) (./Tex/Externalidades.tex
-LaTeX Info: Redefining \. on input line 5.
-LaTeX Info: Redefining \% on input line 5.
- [13]
+LaTeX Info: Redefining \. on input line 210.
+LaTeX Info: Redefining \% on input line 210.
+[13])
+LaTeX Info: Redefining \. on input line 33.
+LaTeX Info: Redefining \% on input line 33.
+ [14] (./Tex/Externalidades.tex
 File: Figuras/Eq Parcial EXT.jpg Graphic file (type bmp)
 <Figuras/Eq Parcial EXT.jpg>
 LaTeX Info: Redefining \. on input line 21.
 LaTeX Info: Redefining \% on input line 21.
- [14]
+ [15]
 File: Figuras/Externalidad Produccion.jpg Graphic file (type bmp)
 <Figuras/Externalidad Produccion.jpg>
 LaTeX Info: Redefining \. on input line 38.
 LaTeX Info: Redefining \% on input line 38.
- [15]
-Package marginnote Info: Margin note 16.1 is on absolute page 16 on input line 41.
-Package marginnote Info: xpos seems to be 342.80244pt on input line 41.
-Package marginnote Info: Margin note 16.2 is on absolute page 16 on input line 47.
-Package marginnote Info: xpos seems to be 382.5136pt on input line 47.
+ [16]
+Package marginnote Info: Margin note 17.1 is on absolute page 17 on input line 41.
+Package marginnote Info: xpos seems to be 297.80244pt on input line 41.
+Package marginnote Info: Margin note 17.2 is on absolute page 17 on input line 47.
+Package marginnote Info: xpos seems to be 337.5136pt on input line 47.
 )
-LaTeX Info: Redefining \. on input line 35.
-LaTeX Info: Redefining \% on input line 35.
- [16] (./Tex/Ap PrivadoPublico.tex
-Apéndice A.
-[17
+LaTeX Info: Redefining \. on input line 37.
+LaTeX Info: Redefining \% on input line 37.
+ [17]
+LaTeX Info: Redefining \. on input line 37.
+LaTeX Info: Redefining \% on input line 37.
+ [18
 
+] (./Tex/Ap PrivadoPublico.tex
+Apéndice A.
+[19
 
 ]
 File: Figuras/EG Curva de contrato con produccion.jpeg Graphic file (type bmp)
 <Figuras/EG Curva de contrato con produccion.jpeg>
-Package marginnote Info: Margin note 18.1 is on absolute page 18 on input line 42.
+Package marginnote Info: Margin note 20.1 is on absolute page 20 on input line 42.
 Package marginnote Info: xpos seems to be 366.98637pt on input line 42.
 File: Figuras/EQ Frontera de posibilidades de produccion.jpeg Graphic file (type bmp)
 <Figuras/EQ Frontera de posibilidades de produccion.jpeg>
 LaTeX Info: Redefining \. on input line 57.
 LaTeX Info: Redefining \% on input line 57.
- [18]
+ [20]
 LaTeX Info: Redefining \. on input line 57.
 LaTeX Info: Redefining \% on input line 57.
- [19]
+ [21]
 LaTeX Info: Redefining \. on input line 86.
 LaTeX Info: Redefining \% on input line 86.
- [20]
+ [22]
 LaTeX Info: Redefining \. on input line 114.
 LaTeX Info: Redefining \% on input line 114.
- [21]
+ [23]
 Underfull \vbox (badness 4608) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 140.
 LaTeX Info: Redefining \% on input line 140.
- [22]
+ [24]
 LaTeX Info: Redefining \. on input line 158.
 LaTeX Info: Redefining \% on input line 158.
- [23]
+ [25]
 LaTeX Info: Redefining \. on input line 182.
 LaTeX Info: Redefining \% on input line 182.
- [24])
-LaTeX Info: Redefining \. on input line 39.
-LaTeX Info: Redefining \% on input line 39.
+ [26])
+LaTeX Info: Redefining \. on input line 41.
+LaTeX Info: Redefining \% on input line 41.
 
 Overfull \hbox (179.28687pt too wide) has occurred while \output is active
-\TU/lmr/m/sl/12 A.4.  GEOMETRÍA DE LAS CURVAS DE CONTRATO BAJO DIFERENTES FUNCIONES DE UTILIDAD \TU/lmr/m/n/12 25
+\TU/lmr/m/sl/12 A.4.  GEOMETRÍA DE LAS CURVAS DE CONTRATO BAJO DIFERENTES FUNCIONES DE UTILIDAD \TU/lmr/m/n/12 27
  []
 
-[25] (./PrivadoPublico.aux
+[27] (./PrivadoPublico.aux
 LaTeX Info: Redefining \. on input line 22.
 LaTeX Info: Redefining \% on input line 22.
 )
@@ -512,12 +526,12 @@ Package rerunfilecheck Info: File `PrivadoPublico.out' has not changed.
 (rerunfilecheck)             Checksum: 11D22D4944B63FE2D9B66409CB47C8AD;3880.
  ) 
 Here is how much of TeX's memory you used:
- 11453 strings out of 476683
- 184537 string characters out of 5804047
+ 11456 strings out of 476683
+ 184570 string characters out of 5804047
  1858018 words of memory out of 5000000
- 31489 multiletter control sequences out of 15000+600000
+ 31492 multiletter control sequences out of 15000+600000
  519135 words of font info for 77 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 72i,12n,76p,1320b,489s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,12n,76p,1485b,489s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on PrivadoPublico.xdv (25 pages, 339860 bytes).
+Output written on PrivadoPublico.xdv (27 pages, 345860 bytes).

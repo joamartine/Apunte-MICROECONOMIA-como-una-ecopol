@@ -1,11 +1,11 @@
 # Fdb version 4
-["xdvipdfmx"] 1721007764 "PrivadoPublico.xdv" "PrivadoPublico.pdf" "PrivadoPublico" 1721007764 0
-  "PrivadoPublico.xdv" 1721007764 339872 ee6dc7b44ddd4b58ce7bade149a333c5 "xelatex"
+["xdvipdfmx"] 1721914216 "PrivadoPublico.xdv" "PrivadoPublico.pdf" "PrivadoPublico" 1721914216 0
+  "PrivadoPublico.xdv" 1721914216 345860 6b29ad67ff91591c134c2f3d8bec2cfd "xelatex"
   (generated)
   "PrivadoPublico.pdf"
   (rewritten before read)
-["xelatex"] 1721007763 "/Users/joaquin/Documents/GitHub/Apunte-MICROECONOMIA-como-una-ecopol/PrivadoPublico/PrivadoPublico.tex" "PrivadoPublico.xdv" "PrivadoPublico" 1721007764 0
-  "/Users/joaquin/Documents/GitHub/Apunte-MICROECONOMIA-como-una-ecopol/PrivadoPublico/PrivadoPublico.tex" 1720997948 1254 a43682a766aa0796330be6e670c0b7ea ""
+["xelatex"] 1721914215 "/Users/joaquin/Documents/GitHub/Apunte-MICROECONOMIA-como-una-ecopol/PrivadoPublico/PrivadoPublico.tex" "PrivadoPublico.xdv" "PrivadoPublico" 1721914216 0
+  "/Users/joaquin/Documents/GitHub/Apunte-MICROECONOMIA-como-una-ecopol/PrivadoPublico/PrivadoPublico.tex" 1721911311 1262 a159fc5cb78a8f534f7a4607345e2cb1 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -103,12 +103,12 @@
   "Figuras/EQ Frontera de posibilidades de produccion.jpeg" 1719755952 11255 fdcfade055cff20d1297709a4d68b4de ""
   "Figuras/Eq Parcial EXT.jpg" 1719755952 102781 9ad25ec5c004720dd79d94ba2919c32d ""
   "Figuras/Externalidad Produccion.jpg" 1719755952 169590 38f25224051de68b7f05bc90bb0e3284 ""
-  "PrivadoPublico.aux" 1721007764 6761 d80a05b2e415d92825f22c97917fb72f "xelatex"
-  "PrivadoPublico.out" 1721007764 3880 11d22d4944b63fe2d9b66409cb47c8ad "xelatex"
-  "PrivadoPublico.tex" 1720997948 1254 a43682a766aa0796330be6e670c0b7ea ""
+  "PrivadoPublico.aux" 1721914216 6887 911ba959b2d4c1e18cdf16c34540db64 "xelatex"
+  "PrivadoPublico.out" 1721914216 3880 11d22d4944b63fe2d9b66409cb47c8ad "xelatex"
+  "PrivadoPublico.tex" 1721911311 1262 a159fc5cb78a8f534f7a4607345e2cb1 ""
   "Tex/Ap PrivadoPublico.tex" 1721007134 14375 3c6ef3f46fe4aeea10c2703cfac265e2 ""
-  "Tex/EquilibrioGeneral.tex" 1721007415 22029 8d3024db0ab71e8d9cafd4828a699b57 ""
-  "Tex/Externalidades.tex" 1721007763 5673 f120e468080f2175e14fdcfd03da0f06 ""
+  "Tex/EquilibrioGeneral.tex" 1721914214 22583 11927bc58b3f0dc9ed5e7ffce7114c24 ""
+  "Tex/Externalidades.tex" 1721008463 5664 7a2c9e03183bbb8b8f084b1118e52d36 ""
   (generated)
   "PrivadoPublico.aux"
   "PrivadoPublico.log"
